@@ -38,6 +38,10 @@ struct params
 	std::string configFileNVIDIA;
 	std::string configFileCPU;
 
+	std::string configCPU;
+
+	int64_t coreCount = 0;
+
 	params() :
 		binaryName("xmr-stak"),
 		executablePrefix(""),
@@ -47,7 +51,8 @@ struct params
 		configFile("config.txt"),
 		configFileAMD("amd.txt"),
 		configFileCPU("cpu.txt"),
-		configFileNVIDIA("nvidia.txt")
+		configFileNVIDIA("nvidia.txt"),
+		configCPU("")
 	{}
 
 };

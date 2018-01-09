@@ -152,6 +152,70 @@ size_t jconf::GetThreadCount()
 		return 0;
 }
 
+bool jconf::parse_string(const char* sData)
+{
+	size_t slen = strlen(sData);
+	char* buffer = (char*)malloc(slen + 3);
+
+	strcpy(buffer + 1, sData);
+	
+	buffer[0] = '{';
+	buffer[slen] = '}';
+	buffer[slen + 1] = '\0';
+
+	std::cout << buffer << std::endl;
+	prv->jsonDoc.Parse<kParseCommentsFlag|kParseTrailingCommasFlag>(buffer, slen+2);
+	free(buffer);	
+
+	if(prv->jsonDoc.HasParseError())
+	{
+		printer::inst()->print_msg(L0, "JSON config parse error(offset %llu): %s",
+			int_port(prv->jsonDoc.GetErrorOffset()), GetParseError_En(prv->jsonDoc.GetParseError()));
+		return false;
+	}
+
+	if(!prv->jsonDoc.IsObject())
+	{ //This should never happen as we created the root ourselves
+		printer::inst()->print_msg(L0, "Invalid config file. No root?\n");
+		return false;
+	}
+
+	for(size_t i = 0; i < iConfigCnt; i++)
+	{
+		if(oConfigValues[i].iName != i)
+		{
+			printer::inst()->print_msg(L0, "Code error. oConfigValues are not in order.");
+			return false;
+		}
+
+		prv->configValues[i] = GetObjectMember(prv->jsonDoc, oConfigValues[i].sName);
+
+		if(prv->configValues[i] == nullptr)
+		{
+			printer::inst()->print_msg(L0, "Invalid config file. Missing value \"%s\".", oConfigValues[i].sName);
+			return false;
+		}
+
+		if(!checkType(prv->configValues[i]->GetType(), oConfigValues[i].iType))
+		{
+			printer::inst()->print_msg(L0, "Invalid config file. Value \"%s\" has unexpected type.", oConfigValues[i].sName);
+			return false;
+		}
+	}
+
+	thd_cfg c;
+	for(size_t i=0; i < GetThreadCount(); i++)
+	{
+		if(!GetThreadConfig(i, c))
+		{
+			printer::inst()->print_msg(L0, "Thread %llu has invalid config.", int_port(i));
+			return false;
+		}
+	}
+
+	return true;
+}
+
 bool jconf::parse_config(const char* sFilename)
 {
 	FILE * pFile;
@@ -184,6 +248,7 @@ bool jconf::parse_config(const char* sFilename)
 	}
 
 	buffer = (char*)malloc(flen + 3);
+	
 	if(fread(buffer+1, flen, 1, pFile) != 1)
 	{
 		free(buffer);
@@ -205,7 +270,7 @@ bool jconf::parse_config(const char* sFilename)
 	buffer[0] = '{';
 	buffer[flen] = '}';
 	buffer[flen + 1] = '\0';
-
+	std::cout << buffer << std::endl;
 	prv->jsonDoc.Parse<kParseCommentsFlag|kParseTrailingCommasFlag>(buffer, flen+2);
 	free(buffer);
 

@@ -93,6 +93,7 @@ void help()
 	cout<<"  -O, --tls-url URL     TLS pool url and port, e.g. pool.usxmrpool.com:10443"<<endl;
 	cout<<"  -u, --user USERNAME   pool user name or wallet address"<<endl;
 	cout<<"  -p, --pass PASSWD     pool password, in the most cases x or empty \"\""<<endl;
+	cout<<"  -r, --coreCount 	   set core count, default value is your core count \"\""<<endl;
 	cout<<"  --use-nicehash        the pool should run in nicehash mode"<<endl;
 	cout<<" \n"<<endl;
 #ifdef _WIN32
@@ -508,6 +509,29 @@ int main(int argc, char *argv[])
 		{
 			uacDialog = false;
 		}
+		else if(opName.compare("-r") == 0 || opName.compare("--coreCount") == 0)
+		{
+			++i;
+			if( i >=argc )
+			{
+				printer::inst()->print_msg(L0, "No argument for parameter '-r/--coreCount' given");
+				win_exit();
+				return 1;
+			}
+			params::inst().coreCount = atoi(argv[i]);
+		}
+		else if(opName.compare("-i") == 0 || opName.compare("--cpuInfo") == 0)
+		{
+			++i;
+			if( i >=argc )
+			{
+				printer::inst()->print_msg(L0, "No argument for parameter '-i/--cpuInfo' given");
+				win_exit();
+				return 1;
+			}
+			params::inst().configCPU = argv[i] ;
+			std::cout<<"Configuration stored in file '"<<params::inst().configCPU<<"'"<<std::endl;
+		}
 		else
 		{
 			printer::inst()->print_msg(L0, "Parameter unknown '%s'",argv[i]);
@@ -585,8 +609,11 @@ int main(int argc, char *argv[])
 		printer::inst()->open_logfile(jconf::inst()->GetOutputFile());
 
 	executor::inst()->ex_start(jconf::inst()->DaemonMode());
+	printer::inst()->set_verbose_level(L4);
 
 	uint64_t lastTime = get_timestamp_ms();
+
+
 	int key;
 	while(true)
 	{

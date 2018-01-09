@@ -28,6 +28,7 @@
 #include <string.h>
 #include <stdarg.h>
 #include <cstdlib>
+#include <iostream>
 
 #ifdef _WIN32
 #include <windows.h>
@@ -167,6 +168,8 @@ bool printer::open_logfile(const char* file)
 
 void printer::print_msg(verbosity verbose, const char* fmt, ...)
 {
+//	std::cout << fmt << std::endl;
+
 	if(verbose > verbose_level)
 		return;
 
@@ -204,6 +207,8 @@ void printer::print_msg(verbosity verbose, const char* fmt, ...)
 		fputs(buf, logfile);
 		fflush(logfile);
 	}
+
+	std::cout << std::endl;
 }
 
 void printer::print_str(const char* str)
@@ -221,6 +226,8 @@ void printer::print_str(const char* str)
 		fputs(str, logfile);
 		fflush(logfile);
 	}
+
+	std::cout << std::endl;
 }
 
 //Do a press any key for the windows folk. *insert any key joke here*

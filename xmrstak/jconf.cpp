@@ -227,7 +227,7 @@ uint64_t jconf::GetGiveUpLimit()
 
 uint64_t jconf::GetVerboseLevel()
 {
-	return prv->configValues[iVerboseLevel]->GetUint64();
+	return 4;//prv->configValues[iVerboseLevel]->GetUint64();
 }
 
 bool jconf::PrintMotd()
@@ -237,7 +237,7 @@ bool jconf::PrintMotd()
 
 uint64_t jconf::GetAutohashTime()
 {
-	return prv->configValues[iAutohashTime]->GetUint64();
+	return 10;//prv->configValues[iAutohashTime]->GetUint64();
 }
 
 uint16_t jconf::GetHttpdPort()

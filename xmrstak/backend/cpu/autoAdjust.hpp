@@ -81,7 +81,8 @@ public:
 				linux_layout ? "Linux" : "Windows");
 
 			uint32_t aff_id = 0;
-			for(uint32_t i=0; i < corecnt; i++)
+			uint32_t working_corecnt = params::inst().coreCount == 0 ? corecnt : params::inst().coreCount;
+			for(uint32_t i=0; i < working_corecnt; i++)
 			{
 				bool double_mode;
 
@@ -138,7 +139,8 @@ private:
 			if(get_masked(cpu_info[0], 7, 5) != 3)
 			{
 				printer::inst()->print_msg(L0, "Autoconf failed: Couln't find L3 cache page.");
-				return false;
+				return true;
+			//	return false;
 			}
 
 			L3KB_size = ((get_masked(cpu_info[1], 31, 22) + 1) * (get_masked(cpu_info[1], 21, 12) + 1) *

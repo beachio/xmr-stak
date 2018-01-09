@@ -1,0 +1,33 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/cli-miner.cpp" "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "Clang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BACKEND_TYPE=cpu"
+  "CONF_NO_CUDA"
+  "CONF_NO_HTTPD"
+  "CONF_NO_HWLOC"
+  "CONF_NO_OPENCL"
+  "CONF_NO_TLS"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "."
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-c.dir/DependInfo.cmake"
+  "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-backend.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

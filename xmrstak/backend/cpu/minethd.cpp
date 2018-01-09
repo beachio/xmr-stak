@@ -288,7 +288,9 @@ std::vector<iBackend*> minethd::thread_starter(uint32_t threadOffset, miner_work
 			return pvThreads;
 	}
 
-	if(!jconf::inst()->parse_config())
+	bool bParse = params::inst().configCPU == "" ? jconf::inst()->parse_config() : jconf::inst()->parse_string();
+
+	if(!bParse)
 	{
 		win_exit();
 	}
