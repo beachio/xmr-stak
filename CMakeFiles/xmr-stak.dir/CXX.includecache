@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/cli-miner.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/cli-miner.cpp
 xmrstak/misc/executor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/misc/executor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/misc/executor.hpp
 xmrstak/backend/miner_work.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/backend/miner_work.hpp
 xmrstak/backend/globalStates.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/backend/globalStates.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/backend/globalStates.hpp
 xmrstak/backend/backendConnector.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/backend/backendConnector.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/backend/backendConnector.hpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/jconf.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/misc/console.hpp
 xmrstak/donate-level.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/donate-level.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/donate-level.hpp
 xmrstak/params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/params.hpp
 xmrstak/misc/configEditor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/misc/configEditor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/misc/configEditor.hpp
 xmrstak/version.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/version.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/version.hpp
 xmrstak/misc/utility.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/misc/utility.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/misc/utility.hpp
 xmrstak/http/httpd.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/http/httpd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/http/httpd.hpp
 stdlib.h
 -
 stdio.h
@@ -50,11 +50,11 @@ openssl/err.h
 windows.h
 -
 xmrstak/misc/uac.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/xmrstak/misc/uac.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/xmrstak/misc/uac.hpp
 ../config.tpl
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/config.tpl
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/config.tpl
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/config.tpl
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/config.tpl
 
 xmrstak/backend/backendConnector.hpp
 iBackend.hpp
@@ -189,11 +189,7 @@ condition_variable
 -
 
 xmrstak/misc/uac.hpp
-xmrstak/misc/console.hpp
-xmrstak/misc/xmrstak/misc/console.hpp
 string
--
-windows.h
 -
 
 xmrstak/misc/utility.hpp

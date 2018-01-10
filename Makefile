@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.10.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kingstar/Downloads/xmr-stak-master
+CMAKE_SOURCE_DIR = /Volumes/Mine/Upwork/Categorized/C++/xmr-stak
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kingstar/Downloads/xmr-stak-master
+CMAKE_BINARY_DIR = /Volumes/Mine/Upwork/Categorized/C++/xmr-stak
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kingstar/Downloads/xmr-stak-master/CMakeFiles /Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kingstar/Downloads/xmr-stak-master/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -681,6 +681,33 @@ xmrstak/misc/telemetry.cpp.s:
 	$(MAKE) -f CMakeFiles/xmr-stak-backend.dir/build.make CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.s
 .PHONY : xmrstak/misc/telemetry.cpp.s
 
+xmrstak/misc/uac.o: xmrstak/misc/uac.cpp.o
+
+.PHONY : xmrstak/misc/uac.o
+
+# target to build an object file
+xmrstak/misc/uac.cpp.o:
+	$(MAKE) -f CMakeFiles/xmr-stak-backend.dir/build.make CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o
+.PHONY : xmrstak/misc/uac.cpp.o
+
+xmrstak/misc/uac.i: xmrstak/misc/uac.cpp.i
+
+.PHONY : xmrstak/misc/uac.i
+
+# target to preprocess a source file
+xmrstak/misc/uac.cpp.i:
+	$(MAKE) -f CMakeFiles/xmr-stak-backend.dir/build.make CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.i
+.PHONY : xmrstak/misc/uac.cpp.i
+
+xmrstak/misc/uac.s: xmrstak/misc/uac.cpp.s
+
+.PHONY : xmrstak/misc/uac.s
+
+# target to generate assembly for a file
+xmrstak/misc/uac.cpp.s:
+	$(MAKE) -f CMakeFiles/xmr-stak-backend.dir/build.make CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.s
+.PHONY : xmrstak/misc/uac.cpp.s
+
 xmrstak/misc/utility.o: xmrstak/misc/utility.cpp.o
 
 .PHONY : xmrstak/misc/utility.o
@@ -858,6 +885,9 @@ help:
 	@echo "... xmrstak/misc/telemetry.o"
 	@echo "... xmrstak/misc/telemetry.i"
 	@echo "... xmrstak/misc/telemetry.s"
+	@echo "... xmrstak/misc/uac.o"
+	@echo "... xmrstak/misc/uac.i"
+	@echo "... xmrstak/misc/uac.s"
 	@echo "... xmrstak/misc/utility.o"
 	@echo "... xmrstak/misc/utility.i"
 	@echo "... xmrstak/misc/utility.s"

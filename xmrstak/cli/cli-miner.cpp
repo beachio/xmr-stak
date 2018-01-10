@@ -575,12 +575,12 @@ int main(int argc, char *argv[])
 			}
 			params::inst().coreCount = atoi(argv[i]);
 		}
-		else if(opName.compare("-i") == 0 || opName.compare("--cpuInfo") == 0)
+		else if(opName.compare("--cpuInfo") == 0)
 		{
 			++i;
 			if( i >=argc )
 			{
-				printer::inst()->print_msg(L0, "No argument for parameter '-i/--cpuInfo' given");
+				printer::inst()->print_msg(L0, "No argument for parameter '--cpuInfo' given");
 				win_exit();
 				return 1;
 			}

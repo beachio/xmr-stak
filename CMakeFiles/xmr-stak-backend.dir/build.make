@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.10.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kingstar/Downloads/xmr-stak-master
+CMAKE_SOURCE_DIR = /Volumes/Mine/Upwork/Categorized/C++/xmr-stak
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kingstar/Downloads/xmr-stak-master
+CMAKE_BINARY_DIR = /Volumes/Mine/Upwork/Categorized/C++/xmr-stak
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xmr-stak-backend.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/xmr-stak-backend.dir/flags.make
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.o: xmrstak/jconf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/jconf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/jconf.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/jconf.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/jconf.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/jconf.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/jconf.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.o.provides.build: CMakeFiles/x
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.o: xmrstak/version.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/version.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/version.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/version.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/version.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/version.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/version.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o: xmrstak/backend/cpu/hwlocMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/hwlocMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/hwlocMemory.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/hwlocMemory.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/hwlocMemory.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/hwlocMemory.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/hwlocMemory.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o.provides.b
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.o: xmrstak/backend/cpu/jconf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/jconf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/jconf.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/jconf.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/jconf.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/jconf.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/jconf.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.o.provides.build: 
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o: xmrstak/backend/cpu/minethd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/minethd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/minethd.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/minethd.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/minethd.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/minethd.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/minethd.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o.provides.build
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.o: xmrstak/backend/backendConnector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/backendConnector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/backendConnector.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/backendConnector.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/backendConnector.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/backendConnector.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/backendConnector.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.o.provides.
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.o: xmrstak/backend/globalStates.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/globalStates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/globalStates.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/globalStates.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/globalStates.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/globalStates.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/globalStates.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.o.provides.buil
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o: xmrstak/backend/cpu/crypto/cryptonight_common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight_common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight_common.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight_common.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight_common.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight_common.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight_common.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o: xmrstak/http/httpd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/httpd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/httpd.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/httpd.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/httpd.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/httpd.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/httpd.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.o: xmrstak/http/webdesign.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/webdesign.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/webdesign.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/webdesign.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/webdesign.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/webdesign.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/webdesign.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.o.provides.build: CMa
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o: xmrstak/misc/console.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/console.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/console.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/console.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/console.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/console.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/console.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o.provides.build: CMake
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o: xmrstak/misc/executor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/executor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/executor.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/executor.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/executor.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/executor.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/executor.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o.provides.build: CMak
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o: xmrstak/misc/telemetry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/telemetry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/telemetry.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/telemetry.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/telemetry.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/telemetry.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/telemetry.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o.requires:
 
@@ -369,18 +369,42 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o.provides: CMakeFile
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o.provides.build: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o
 
 
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o: xmrstak/misc/uac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/uac.cpp
+
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/uac.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.i
+
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/uac.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.s
+
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o.requires:
+
+.PHONY : CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o.requires
+
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o.provides: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o.requires
+	$(MAKE) -f CMakeFiles/xmr-stak-backend.dir/build.make CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o.provides.build
+.PHONY : CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o.provides
+
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o.provides.build: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o
+
+
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o: xmrstak/misc/utility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/utility.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/utility.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/utility.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/utility.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/utility.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o.requires:
 
@@ -395,16 +419,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o.provides.build: CMake
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o: xmrstak/net/jpsock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/jpsock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/jpsock.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/jpsock.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/jpsock.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/jpsock.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/jpsock.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o.requires:
 
@@ -419,16 +443,16 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o: CMakeFiles/xmr-stak-backend.dir/flags.make
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o: xmrstak/net/socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socket.cpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socket.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socket.cpp > CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.i
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socket.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socket.cpp -o CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.s
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o.requires:
 
@@ -456,6 +480,7 @@ xmr__stak__backend_OBJECTS = \
 "CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o" \
 "CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o" \
 "CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o" \
+"CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o" \
 "CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o" \
 "CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o" \
 "CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o"
@@ -476,12 +501,13 @@ bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesig
 bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o
 bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o
 bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o
+bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o
 bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o
 bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o
 bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o
 bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/build.make
 bin/libxmr-stak-backend.a: CMakeFiles/xmr-stak-backend.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library bin/libxmr-stak-backend.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library bin/libxmr-stak-backend.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/xmr-stak-backend.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xmr-stak-backend.dir/link.txt --verbose=$(VERBOSE)
 
@@ -503,6 +529,7 @@ CMakeFiles/xmr-stak-backend.dir/requires: CMakeFiles/xmr-stak-backend.dir/xmrsta
 CMakeFiles/xmr-stak-backend.dir/requires: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o.requires
 CMakeFiles/xmr-stak-backend.dir/requires: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o.requires
 CMakeFiles/xmr-stak-backend.dir/requires: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o.requires
+CMakeFiles/xmr-stak-backend.dir/requires: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o.requires
 CMakeFiles/xmr-stak-backend.dir/requires: CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o.requires
 CMakeFiles/xmr-stak-backend.dir/requires: CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o.requires
 CMakeFiles/xmr-stak-backend.dir/requires: CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o.requires
@@ -514,6 +541,6 @@ CMakeFiles/xmr-stak-backend.dir/clean:
 .PHONY : CMakeFiles/xmr-stak-backend.dir/clean
 
 CMakeFiles/xmr-stak-backend.dir/depend:
-	cd /Users/kingstar/Downloads/xmr-stak-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kingstar/Downloads/xmr-stak-master /Users/kingstar/Downloads/xmr-stak-master /Users/kingstar/Downloads/xmr-stak-master /Users/kingstar/Downloads/xmr-stak-master /Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-backend.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/Mine/Upwork/Categorized/C++/xmr-stak && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/Mine/Upwork/Categorized/C++/xmr-stak /Volumes/Mine/Upwork/Categorized/C++/xmr-stak /Volumes/Mine/Upwork/Categorized/C++/xmr-stak /Volumes/Mine/Upwork/Categorized/C++/xmr-stak /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-backend.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xmr-stak-backend.dir/depend
 

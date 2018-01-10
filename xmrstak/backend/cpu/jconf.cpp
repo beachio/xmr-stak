@@ -157,14 +157,14 @@ bool jconf::parse_string(const char* sData)
 	size_t slen = strlen(sData);
 	char* buffer = (char*)malloc(slen + 3);
 
-	strcpy(buffer + 1, sData);
+	strcpy(buffer, sData);
 	
 	buffer[0] = '{';
-	buffer[slen] = '}';
-	buffer[slen + 1] = '\0';
+	buffer[slen - 1] = '}';
+	buffer[slen ] = '\0';
 
-	std::cout << buffer << std::endl;
-	prv->jsonDoc.Parse<kParseCommentsFlag|kParseTrailingCommasFlag>(buffer, slen+2);
+	std::cout << sData << std::endl << buffer << std::endl;
+	prv->jsonDoc.Parse<kParseCommentsFlag|kParseTrailingCommasFlag>(buffer, slen+1);
 	free(buffer);	
 
 	if(prv->jsonDoc.HasParseError())

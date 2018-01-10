@@ -37,7 +37,9 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cp
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o: xmrstak/backend/cpu/crypto/soft_aes.hpp
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o: xmrstak/backend/cryptonight.hpp
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o: xmrstak/jconf.hpp
+CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o: xmrstak/misc/console.hpp
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o: xmrstak/misc/environment.hpp
+CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o: xmrstak/misc/uac.hpp
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o: xmrstak/params.hpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o: xmrstak/backend/cpu/hwlocMemory.cpp
@@ -176,6 +178,11 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o: xmrstak/version.hpp
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o: xmrstak/misc/telemetry.cpp
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o: xmrstak/misc/telemetry.hpp
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o: xmrstak/net/msgstruct.hpp
+
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o: xmrstak/misc/uac.cpp
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o: xmrstak/misc/console.hpp
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o: xmrstak/misc/environment.hpp
+CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o: xmrstak/params.hpp
 
 CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o: xmrstak/misc/utility.cpp
 

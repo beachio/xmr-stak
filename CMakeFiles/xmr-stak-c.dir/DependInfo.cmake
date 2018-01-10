@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_blake256.c" "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o"
-  "/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_groestl.c" "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o"
-  "/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_jh.c" "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o"
-  "/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_keccak.c" "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o"
-  "/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_skein.c" "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o"
+  "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_blake256.c" "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o"
+  "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_groestl.c" "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o"
+  "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_jh.c" "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o"
+  "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_keccak.c" "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o"
+  "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_skein.c" "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
@@ -20,6 +20,8 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "CONF_NO_HWLOC"
   "CONF_NO_OPENCL"
   "CONF_NO_TLS"
+  "GIT_BRANCH=vasil"
+  "GIT_COMMIT_HASH=5ca1de1"
   )
 
 # The include file search paths:

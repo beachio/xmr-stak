@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.10.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kingstar/Downloads/xmr-stak-master
+CMAKE_SOURCE_DIR = /Volumes/Mine/Upwork/Categorized/C++/xmr-stak
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kingstar/Downloads/xmr-stak-master
+CMAKE_BINARY_DIR = /Volumes/Mine/Upwork/Categorized/C++/xmr-stak
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xmr-stak-c.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/xmr-stak-c.dir/flags.make
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o: CMakeFiles/xmr-stak-c.dir/flags.make
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o: xmrstak/backend/cpu/crypto/c_blake256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o   -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_blake256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_blake256.c
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_blake256.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_blake256.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.i
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_blake256.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_blake256.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.s
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o.provides.bui
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o: CMakeFiles/xmr-stak-c.dir/flags.make
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o: xmrstak/backend/cpu/crypto/c_groestl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o   -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_groestl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_groestl.c
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_groestl.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_groestl.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.i
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_groestl.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_groestl.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.s
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o.provides.buil
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o: CMakeFiles/xmr-stak-c.dir/flags.make
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o: xmrstak/backend/cpu/crypto/c_jh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o   -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_jh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_jh.c
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_jh.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_jh.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.i
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_jh.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_jh.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.s
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o.provides.build: CM
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o: CMakeFiles/xmr-stak-c.dir/flags.make
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o: xmrstak/backend/cpu/crypto/c_keccak.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o   -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_keccak.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_keccak.c
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_keccak.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_keccak.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.i
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_keccak.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_keccak.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.s
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o.provides.build
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o: CMakeFiles/xmr-stak-c.dir/flags.make
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o: xmrstak/backend/cpu/crypto/c_skein.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o   -c /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_skein.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_skein.c
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_skein.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_skein.c > CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.i
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_skein.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_skein.c -o CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.s
 
 CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o.requires:
 
@@ -195,7 +195,7 @@ bin/libxmr-stak-c.a: CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_kecc
 bin/libxmr-stak-c.a: CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o
 bin/libxmr-stak-c.a: CMakeFiles/xmr-stak-c.dir/build.make
 bin/libxmr-stak-c.a: CMakeFiles/xmr-stak-c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library bin/libxmr-stak-c.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library bin/libxmr-stak-c.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/xmr-stak-c.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xmr-stak-c.dir/link.txt --verbose=$(VERBOSE)
 
@@ -217,6 +217,6 @@ CMakeFiles/xmr-stak-c.dir/clean:
 .PHONY : CMakeFiles/xmr-stak-c.dir/clean
 
 CMakeFiles/xmr-stak-c.dir/depend:
-	cd /Users/kingstar/Downloads/xmr-stak-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kingstar/Downloads/xmr-stak-master /Users/kingstar/Downloads/xmr-stak-master /Users/kingstar/Downloads/xmr-stak-master /Users/kingstar/Downloads/xmr-stak-master /Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/Mine/Upwork/Categorized/C++/xmr-stak && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/Mine/Upwork/Categorized/C++/xmr-stak /Volumes/Mine/Upwork/Categorized/C++/xmr-stak /Volumes/Mine/Upwork/Categorized/C++/xmr-stak /Volumes/Mine/Upwork/Categorized/C++/xmr-stak /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xmr-stak-c.dir/depend
 

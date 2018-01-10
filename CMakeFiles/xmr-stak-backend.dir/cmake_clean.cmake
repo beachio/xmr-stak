@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o"
   "CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o"
   "CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o"
+  "CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o"
   "CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o"
   "CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o"
   "CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o"

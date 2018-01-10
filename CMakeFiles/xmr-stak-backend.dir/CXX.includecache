@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/amd_gpu/gpu.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/amd_gpu/gpu.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/amd_gpu/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/amd_gpu/xmrstak/misc/console.hpp
 OpenCL/cl.h
 -
 CL/cl.h
@@ -20,19 +20,19 @@ string
 vector
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/minethd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/minethd.hpp
 amd_gpu/gpu.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/amd_gpu/gpu.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/amd_gpu/gpu.hpp
 jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/jconf.hpp
 xmrstak/backend/cpu/crypto/cryptonight.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/xmrstak/backend/cpu/crypto/cryptonight.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/xmrstak/backend/cpu/crypto/cryptonight.h
 xmrstak/backend/miner_work.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/xmrstak/backend/miner_work.hpp
 xmrstak/backend/iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/xmrstak/backend/iBackend.hpp
 xmrstak/misc/environment.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/xmrstak/misc/environment.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/xmrstak/misc/environment.hpp
 thread
 -
 atomic
@@ -40,29 +40,29 @@ atomic
 future
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/backendConnector.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/backendConnector.cpp
 iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/iBackend.hpp
 backendConnector.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/backendConnector.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/backendConnector.hpp
 miner_work.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/miner_work.hpp
 globalStates.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/globalStates.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/globalStates.hpp
 plugin.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/plugin.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/plugin.hpp
 xmrstak/misc/environment.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/xmrstak/misc/environment.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/xmrstak/misc/environment.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/xmrstak/misc/console.hpp
 xmrstak/params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/xmrstak/params.hpp
 cpu/minethd.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/minethd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/minethd.hpp
 nvidia/minethd.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/minethd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/minethd.hpp
 amd/minethd.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/amd/minethd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/minethd.hpp
 cstdlib
 -
 assert.h
@@ -78,11 +78,11 @@ thread
 bitset
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/backendConnector.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/backendConnector.hpp
 iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/iBackend.hpp
 miner_work.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/miner_work.hpp
 thread
 -
 vector
@@ -92,21 +92,21 @@ atomic
 mutex
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/./config.tpl
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/./config.tpl
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/autoAdjust.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/autoAdjust.hpp
 jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/jconf.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/console.hpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/jconf.hpp
 xmrstak/misc/configEditor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/configEditor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/configEditor.hpp
 xmrstak/params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/params.hpp
 xmrstak/backend/cryptonight.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/backend/cryptonight.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/backend/cryptonight.hpp
 string
 -
 windows.h
@@ -114,17 +114,17 @@ windows.h
 unistd.h
 -
 ./config.tpl
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/./config.tpl
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/./config.tpl
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/autoAdjustHwloc.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/autoAdjustHwloc.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/console.hpp
 xmrstak/misc/configEditor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/configEditor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/configEditor.hpp
 xmrstak/params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/params.hpp
 xmrstak/backend/cryptonight.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/backend/cryptonight.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/backend/cryptonight.hpp
 windows.h
 -
 unistd.h
@@ -136,45 +136,45 @@ hwloc.h
 stdio.h
 -
 ./config.tpl
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/./config.tpl
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/./config.tpl
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_blake256.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_blake256.h
 stdint.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_groestl.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_groestl.h
 crypto_uint8.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/crypto_uint8.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/crypto_uint8.h
 crypto_uint32.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/crypto_uint32.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/crypto_uint32.h
 crypto_uint64.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/crypto_uint64.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/crypto_uint64.h
 crypto_hash.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/crypto_hash.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/crypto_hash.h
 stdint.h
 -
 hash.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/hash.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/hash.h
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_jh.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_jh.h
 hash.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/hash.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/hash.h
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_skein.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_skein.h
 skein_port.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/skein_port.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/skein_port.h
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight.h
 stddef.h
 -
 inttypes.h
 -
 xmrstak/backend/cryptonight.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/xmrstak/backend/cryptonight.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/xmrstak/backend/cryptonight.hpp
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight_aesni.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight_aesni.h
 cryptonight.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight.h
 memory.h
 -
 stdio.h
@@ -184,25 +184,27 @@ x86intrin.h
 intrin.h
 -
 soft_aes.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/soft_aes.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/soft_aes.hpp
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight_common.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight_common.cpp
 c_groestl.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_groestl.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_groestl.h
 c_blake256.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_blake256.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_blake256.h
 c_jh.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_jh.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_jh.h
 c_skein.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/c_skein.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/c_skein.h
 cryptonight.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight.h
 cryptonight_aesni.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight_aesni.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight_aesni.h
 xmrstak/backend/cryptonight.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/xmrstak/backend/cryptonight.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/xmrstak/backend/cryptonight.hpp
+xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/xmrstak/misc/console.hpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/xmrstak/jconf.hpp
 stdio.h
 -
 stdlib.h
@@ -223,10 +225,12 @@ errno.h
 -
 string.h
 -
+xmrstak/misc/uac.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/xmrstak/misc/uac.hpp
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/hash.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/hash.h
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/skein_port.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/skein_port.h
 limits.h
 -
 stdint.h
@@ -234,7 +238,7 @@ stdint.h
 stddef.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/soft_aes.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/soft_aes.hpp
 x86intrin.h
 -
 intrin.h
@@ -242,25 +246,25 @@ intrin.h
 inttypes.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/hwlocMemory.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/hwlocMemory.cpp
 xmrstak/backend/cpu/hwlocMemory.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/backend/cpu/hwlocMemory.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/backend/cpu/hwlocMemory.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/console.hpp
 hwloc.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/hwlocMemory.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/hwlocMemory.hpp
 cstddef
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/jconf.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/jconf.cpp
 jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/jconf.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/console.hpp
 xmrstak/misc/jext.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/jext.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/jext.hpp
 iostream
 -
 stdio.h
@@ -274,43 +278,43 @@ intrin.h
 cpuid.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/jconf.hpp
 xmrstak/params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/params.hpp
 stdlib.h
 -
 string
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/minethd.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/minethd.cpp
 crypto/cryptonight_aesni.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight_aesni.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight_aesni.h
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/console.hpp
 xmrstak/backend/iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/backend/iBackend.hpp
 xmrstak/backend/globalStates.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/backend/globalStates.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/backend/globalStates.hpp
 xmrstak/misc/configEditor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/configEditor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/configEditor.hpp
 xmrstak/params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/params.hpp
 jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/jconf.hpp
 xmrstak/misc/executor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/misc/executor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/misc/executor.hpp
 minethd.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/minethd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/minethd.hpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/jconf.hpp
 hwlocMemory.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/hwlocMemory.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/hwlocMemory.hpp
 xmrstak/backend/miner_work.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/backend/miner_work.hpp
 autoAdjustHwloc.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/autoAdjustHwloc.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/autoAdjustHwloc.hpp
 autoAdjust.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/autoAdjust.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/autoAdjust.hpp
 assert.h
 -
 cmath
@@ -334,13 +338,13 @@ mach/thread_act.h
 pthread_np.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/minethd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/minethd.hpp
 crypto/cryptonight.h
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/crypto/cryptonight.h
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/crypto/cryptonight.h
 xmrstak/backend/miner_work.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/backend/miner_work.hpp
 xmrstak/backend/iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/cpu/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/xmrstak/backend/iBackend.hpp
 iostream
 -
 thread
@@ -352,11 +356,11 @@ atomic
 future
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/globalStates.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/globalStates.cpp
 miner_work.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/miner_work.hpp
 globalStates.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/globalStates.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/globalStates.hpp
 assert.h
 -
 cmath
@@ -366,19 +370,19 @@ chrono
 cstring
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/globalStates.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/globalStates.hpp
 miner_work.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/miner_work.hpp
 xmrstak/misc/environment.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/xmrstak/misc/environment.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/xmrstak/misc/environment.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/xmrstak/misc/console.hpp
 atomic
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/iBackend.hpp
 xmrstak/backend/globalStates.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/xmrstak/backend/globalStates.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/xmrstak/backend/globalStates.hpp
 atomic
 -
 cstdint
@@ -390,7 +394,7 @@ vector
 string
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/miner_work.hpp
 thread
 -
 atomic
@@ -406,27 +410,27 @@ cassert
 cstring
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/jconf.hpp
 stdlib.h
 -
 string
 -
 xmrstak/params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/xmrstak/params.hpp
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/minethd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/minethd.hpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/xmrstak/jconf.hpp
 jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/jconf.hpp
 nvcc_code/cryptonight.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/nvcc_code/cryptonight.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/nvcc_code/cryptonight.hpp
 xmrstak/backend/cpu/minethd.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/xmrstak/backend/cpu/minethd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/xmrstak/backend/cpu/minethd.hpp
 xmrstak/backend/iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/xmrstak/backend/iBackend.hpp
 xmrstak/misc/environment.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/xmrstak/misc/environment.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/xmrstak/misc/environment.hpp
 iostream
 -
 thread
@@ -438,17 +442,17 @@ vector
 future
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/nvidia/nvcc_code/cryptonight.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/nvidia/nvcc_code/cryptonight.hpp
 stdint.h
 -
 string
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/plugin.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/plugin.hpp
 xmrstak/misc/environment.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/xmrstak/misc/environment.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/xmrstak/misc/environment.hpp
 xmrstak/params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/xmrstak/params.hpp
 thread
 -
 atomic
@@ -458,7 +462,7 @@ vector
 string
 -
 iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/iBackend.hpp
 iostream
 -
 direct.h
@@ -472,21 +476,21 @@ dlfcn.h
 iostream
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/donate-level.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/donate-level.hpp
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/httpd.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/httpd.cpp
 httpd.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/httpd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/httpd.hpp
 webdesign.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/webdesign.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/webdesign.hpp
 xmrstak/net/msgstruct.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/xmrstak/net/msgstruct.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/xmrstak/net/msgstruct.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/xmrstak/misc/console.hpp
 xmrstak/misc/executor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/xmrstak/misc/executor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/xmrstak/misc/executor.hpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/xmrstak/jconf.hpp
 stdlib.h
 -
 stdio.h
@@ -498,29 +502,29 @@ string
 microhttpd.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/httpd.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/httpd.hpp
 stdlib.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/webdesign.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/webdesign.cpp
 stdlib.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/http/webdesign.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/webdesign.hpp
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/jconf.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/jconf.cpp
 jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/jconf.hpp
 params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/params.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/xmrstak/misc/console.hpp
 xmrstak/misc/jext.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/xmrstak/misc/jext.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/xmrstak/misc/jext.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/xmrstak/misc/console.hpp
 xmrstak/misc/utility.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/xmrstak/misc/utility.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/xmrstak/misc/utility.hpp
 stdio.h
 -
 stdlib.h
@@ -540,19 +544,19 @@ intrin.h
 cpuid.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/jconf.hpp
 xmrstak/misc/environment.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/xmrstak/misc/environment.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/xmrstak/misc/environment.hpp
 params.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/params.hpp
 stdlib.h
 -
 string
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/console.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/console.cpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/misc/console.hpp
 time.h
 -
 stdio.h
@@ -574,33 +578,33 @@ unistd.h
 stdio.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/executor.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/executor.cpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/jconf.hpp
 executor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/executor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/executor.hpp
 xmrstak/net/jpsock.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/net/jpsock.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/net/jpsock.hpp
 telemetry.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/telemetry.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/telemetry.hpp
 xmrstak/backend/miner_work.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/backend/miner_work.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/backend/miner_work.hpp
 xmrstak/backend/globalStates.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/backend/globalStates.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/backend/globalStates.hpp
 xmrstak/backend/backendConnector.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/backend/backendConnector.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/backend/backendConnector.hpp
 xmrstak/backend/iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/backend/iBackend.hpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/jconf.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/misc/console.hpp
 xmrstak/donate-level.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/donate-level.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/donate-level.hpp
 xmrstak/version.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/version.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/version.hpp
 xmrstak/http/webdesign.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/http/webdesign.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/http/webdesign.hpp
 thread
 -
 string
@@ -618,19 +622,19 @@ time.h
 signal.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/executor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/executor.hpp
 thdq.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/thdq.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/thdq.hpp
 telemetry.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/telemetry.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/telemetry.hpp
 xmrstak/backend/iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/backend/iBackend.hpp
 xmrstak/misc/environment.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/misc/environment.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/misc/environment.hpp
 xmrstak/net/msgstruct.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/net/msgstruct.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/net/msgstruct.hpp
 xmrstak/donate-level.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/donate-level.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/donate-level.hpp
 atomic
 -
 array
@@ -644,11 +648,11 @@ future
 chrono
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/telemetry.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/telemetry.cpp
 telemetry.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/telemetry.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/telemetry.hpp
 xmrstak/net/msgstruct.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/xmrstak/net/msgstruct.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/net/msgstruct.hpp
 cmath
 -
 cstring
@@ -656,13 +660,13 @@ cstring
 chrono
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/telemetry.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/telemetry.hpp
 cstdint
 -
 cstring
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/thdq.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/thdq.hpp
 queue
 -
 thread
@@ -672,13 +676,23 @@ mutex
 condition_variable
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/misc/utility.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/uac.cpp
+xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/misc/console.hpp
+xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/xmrstak/params.hpp
+string
+-
+windows.h
+-
+
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/misc/utility.cpp
 string
 -
 algorithm
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/jpsock.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/jpsock.cpp
 stdarg.h
 -
 assert.h
@@ -686,25 +700,25 @@ assert.h
 algorithm
 -
 jpsock.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/jpsock.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/jpsock.hpp
 socks.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socks.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socks.hpp
 socket.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socket.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socket.hpp
 xmrstak/misc/executor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/xmrstak/misc/executor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/xmrstak/misc/executor.hpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/xmrstak/jconf.hpp
 xmrstak/misc/jext.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/xmrstak/misc/jext.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/xmrstak/misc/jext.hpp
 xmrstak/version.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/xmrstak/version.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/xmrstak/version.hpp
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/jpsock.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/jpsock.hpp
 xmrstak/backend/iBackend.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/xmrstak/backend/iBackend.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/xmrstak/backend/iBackend.hpp
 msgstruct.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/msgstruct.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/msgstruct.hpp
 mutex
 -
 atomic
@@ -716,7 +730,7 @@ thread
 string
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/msgstruct.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/msgstruct.hpp
 string
 -
 string.h
@@ -726,17 +740,17 @@ assert.h
 chrono
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socket.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socket.cpp
 socket.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socket.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socket.hpp
 jpsock.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/jpsock.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/jpsock.hpp
 xmrstak/jconf.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/xmrstak/jconf.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/xmrstak/jconf.hpp
 xmrstak/misc/console.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/xmrstak/misc/console.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/xmrstak/misc/console.hpp
 xmrstak/misc/executor.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/xmrstak/misc/executor.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/xmrstak/misc/executor.hpp
 openssl/ssl.h
 -
 openssl/err.h
@@ -744,11 +758,11 @@ openssl/err.h
 openssl/opensslconf.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socket.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socket.hpp
 socks.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socks.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socks.hpp
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/net/socks.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socks.hpp
 winsock2.h
 -
 ws2tcpip.h
@@ -770,23 +784,23 @@ string.h
 netinet/in.h
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/params.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/params.hpp
 xmrstak/misc/environment.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/xmrstak/misc/environment.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/xmrstak/misc/environment.hpp
 string
 -
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/version.cpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/version.cpp
 version.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/version.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/version.hpp
 
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/version.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/version.hpp
 inttypes.h
 -
 string
 -
 donate-level.hpp
-/Users/kingstar/Downloads/xmr-stak-master/xmrstak/donate-level.hpp
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/donate-level.hpp
 
 xmrstak/backend/backendConnector.hpp
 iBackend.hpp
@@ -954,6 +968,10 @@ thread
 mutex
 -
 condition_variable
+-
+
+xmrstak/misc/uac.hpp
+string
 -
 
 xmrstak/misc/utility.hpp

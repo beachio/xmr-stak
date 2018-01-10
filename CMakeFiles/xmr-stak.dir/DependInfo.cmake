@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kingstar/Downloads/xmr-stak-master/xmrstak/cli/cli-miner.cpp" "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o"
+  "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/cli-miner.cpp" "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -16,6 +16,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "CONF_NO_HWLOC"
   "CONF_NO_OPENCL"
   "CONF_NO_TLS"
+  "GIT_BRANCH=vasil"
+  "GIT_COMMIT_HASH=5ca1de1"
   )
 
 # The include file search paths:
@@ -25,8 +27,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-c.dir/DependInfo.cmake"
-  "/Users/kingstar/Downloads/xmr-stak-master/CMakeFiles/xmr-stak-backend.dir/DependInfo.cmake"
+  "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-c.dir/DependInfo.cmake"
+  "/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-backend.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
