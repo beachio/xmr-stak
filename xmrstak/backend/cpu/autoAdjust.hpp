@@ -81,8 +81,8 @@ public:
 				linux_layout ? "Linux" : "Windows");
 
 			uint32_t aff_id = 0;
-			uint32_t working_corecnt = params::inst().coreCount == 0 ? corecnt : params::inst().coreCount;
-			for(uint32_t i=0; i < working_corecnt; i++)
+			//uint32_t working_corecnt = params::inst().coreCount == 0 ? corecnt : params::inst().coreCount;
+			for(uint32_t i=0; i < corecnt; i++)
 			{
 				bool double_mode;
 

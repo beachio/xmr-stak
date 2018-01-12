@@ -5,7 +5,7 @@
 #include <fstream>
 #include <streambuf>
 #include <regex>
-
+#include <algorithm>
 
 namespace xmrstak
 {
@@ -47,9 +47,21 @@ struct configEditor
 		out.close();
 	}
 
+	void replaceAll(std::string& str, const std::string& from, const std::string& to) {
+		if(from.empty())
+			return;
+		size_t start_pos = 0;
+		while((start_pos = str.find(from, start_pos)) != std::string::npos) {
+			str.replace(start_pos, from.length(), to);
+			start_pos += to.length(); // In case 'to' contains 'from', like replacing 'x' with 'yx'
+		}
+	}
+
 	void replace(const std::string search, const std::string substring)
 	{
-		m_fileContent = std::regex_replace(m_fileContent, std::regex(search), substring);
+		replaceAll(m_fileContent, search, substring);
+		//m_fileContent = std::regex_replace(m_fileContent, std::regex(search), substring);
+
 	}
 
 };

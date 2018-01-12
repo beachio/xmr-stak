@@ -163,7 +163,6 @@ bool jconf::parse_string(const char* sData)
 	buffer[slen - 1] = '}';
 	buffer[slen ] = '\0';
 
-	std::cout << sData << std::endl << buffer << std::endl;
 	prv->jsonDoc.Parse<kParseCommentsFlag|kParseTrailingCommasFlag>(buffer, slen+1);
 	free(buffer);	
 

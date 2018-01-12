@@ -348,7 +348,7 @@ int main(int argc, char *argv[])
 	OpenSSL_add_all_digests();
 #endif
 
-	srand(time(0));
+//	srand(time(0));
 
 	using namespace xmrstak;
 
@@ -585,7 +585,17 @@ int main(int argc, char *argv[])
 				return 1;
 			}
 			params::inst().configCPU = argv[i] ;
-			std::cout<<"Configuration stored in file '"<<params::inst().configCPU<<"'"<<std::endl;
+		}
+		else if(opName.compare("-m") == 0 || opName.compare("--slowMemory") == 0)
+		{
+			++i;
+			if( i >=argc )
+			{
+				printer::inst()->print_msg(L0, "No argument for parameter '-m/--slowMemory' given");
+				win_exit();
+				return 1;
+			}
+			params::inst().slowMemory = argv[i] ;
 		}
 		else
 		{
@@ -638,16 +648,11 @@ int main(int argc, char *argv[])
 	printer::inst()->print_str("-------------------------------------------------------------------\n");
 	printer::inst()->print_str(get_version_str_short().c_str());
 	printer::inst()->print_str("\n\n");
-	printer::inst()->print_str("Brought to you by fireice_uk and psychocrypt under GPLv3.\n");
-	printer::inst()->print_str("Based on CPU mining code by wolf9466 (heavily optimized by fireice_uk).\n");
 #ifndef CONF_NO_CUDA
-	printer::inst()->print_str("Based on NVIDIA mining code by KlausT and psychocrypt.\n");
 #endif
 #ifndef CONF_NO_OPENCL
-	printer::inst()->print_str("Based on OpenCL mining code by wolf9466.\n");
 #endif
 	char buffer[64];
-	snprintf(buffer, sizeof(buffer), "\nConfigurable dev donation level is set to %.1f%%\n\n", fDevDonationLevel * 100.0);
 	printer::inst()->print_str(buffer);
 	printer::inst()->print_str("You can use following keys to display reports:\n");
 	printer::inst()->print_str("'h' - hashrate\n");

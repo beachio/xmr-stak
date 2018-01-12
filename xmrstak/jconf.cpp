@@ -296,8 +296,8 @@ bool jconf::check_cpu_features()
 
 jconf::slow_mem_cfg jconf::GetSlowMemSetting()
 {
-	const char* opt = prv->configValues[sUseSlowMem]->GetString();
-
+	const char* opt = xmrstak::params::inst().slowMemory != "" ? xmrstak::params::inst().slowMemory.c_str() : prv->configValues[sUseSlowMem]->GetString();
+	
 	if(strcasecmp(opt, "always") == 0)
 		return always_use;
 	else if(strcasecmp(opt, "no_mlck") == 0)

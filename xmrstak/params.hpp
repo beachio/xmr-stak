@@ -44,6 +44,8 @@ struct params
 
 	std::string configCPU;
 
+	std::string slowMemory;
+
 	int64_t coreCount = 0;
 	bool allowUAC = true;
 	std::string minerArg0;
@@ -59,7 +61,8 @@ struct params
 		configFileAMD("amd.txt"),
 		configFileCPU("cpu.txt"),
 		configFileNVIDIA("nvidia.txt"),
-		configCPU("")
+		configCPU(""),
+		slowMemory("")
 	{}
 
 };

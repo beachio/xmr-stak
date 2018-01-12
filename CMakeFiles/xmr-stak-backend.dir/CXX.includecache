@@ -913,6 +913,8 @@ streambuf
 -
 regex
 -
+algorithm
+-
 
 xmrstak/misc/console.hpp
 xmrstak/misc/environment.hpp

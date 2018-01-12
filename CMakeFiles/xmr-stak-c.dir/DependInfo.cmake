@@ -21,7 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "CONF_NO_OPENCL"
   "CONF_NO_TLS"
   "GIT_BRANCH=vasil"
-  "GIT_COMMIT_HASH=5ca1de1"
+  "GIT_COMMIT_HASH=5c87119"
   )
 
 # The include file search paths:
