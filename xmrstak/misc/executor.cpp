@@ -513,7 +513,7 @@ void executor::ex_main()
 #endif
 		if(!cfg.tls) dev_tls = false;
 
-		if(!xmrstak::params::inst().poolURL.empty() && xmrstak::params::inst().poolURL == cfg.sPoolAddr)
+		if(!xmrstak::params::inst().poolURL.empty())
 		{
 			auto& params = xmrstak::params::inst();
 			already_have_cli_pool = true;
@@ -522,7 +522,7 @@ void executor::ex_main()
 			const char* pwd = params.userSetPwd ? params.poolPasswd.c_str() : cfg.sPasswd;
 			bool nicehash = cfg.nicehash || params.nicehashMode;
 			
-			pools.emplace_back(i+1, cfg.sPoolAddr, wallet, pwd, 9.9, false, params.poolUseTls, cfg.tls_fingerprint, nicehash);
+			pools.emplace_back(i+1, params.poolURL.c_str(), wallet, pwd, 9.9, false, params.poolUseTls, cfg.tls_fingerprint, nicehash);
 		}
 		else
 			pools.emplace_back(i+1, cfg.sPoolAddr, cfg.sWalletAddr, cfg.sPasswd, cfg.weight, false, cfg.tls, cfg.tls_fingerprint, cfg.nicehash);

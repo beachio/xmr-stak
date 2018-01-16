@@ -4,6 +4,7 @@ build/
 xmr-stak-cpu.layout
 xmr-stak-cpu.depend
 config-debug.txt
+CMakeCache.txt
 
 # netbeans project files
 /nbproject/

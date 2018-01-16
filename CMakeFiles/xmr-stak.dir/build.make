@@ -90,9 +90,17 @@ xmr__stak_EXTERNAL_OBJECTS =
 
 bin/xmr-stak: CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o
 bin/xmr-stak: CMakeFiles/xmr-stak.dir/build.make
+bin/xmr-stak: /usr/local/lib/libmicrohttpd.dylib
+bin/xmr-stak: /usr/local/opt/openssl/lib/libssl.dylib
+bin/xmr-stak: /usr/local/opt/openssl/lib/libcrypto.dylib
+bin/xmr-stak: /usr/local/lib/libhwloc.dylib
 bin/xmr-stak: bin/libxmr-stak-c.a
 bin/xmr-stak: bin/libxmr-stak-backend.a
 bin/xmr-stak: bin/libxmr-stak-c.a
+bin/xmr-stak: /usr/local/lib/libmicrohttpd.dylib
+bin/xmr-stak: /usr/local/opt/openssl/lib/libssl.dylib
+bin/xmr-stak: /usr/local/opt/openssl/lib/libcrypto.dylib
+bin/xmr-stak: /usr/local/lib/libhwloc.dylib
 bin/xmr-stak: CMakeFiles/xmr-stak.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/xmr-stak"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xmr-stak.dir/link.txt --verbose=$(VERBOSE)

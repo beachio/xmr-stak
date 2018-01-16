@@ -4,7 +4,7 @@
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 C_FLAGS = -march=native -mtune=native  -msse2 -maes -O3 -DNDEBUG -fPIC   -std=gnu99
 
-C_DEFINES = -DBACKEND_TYPE=cpu -DCONF_NO_CUDA -DCONF_NO_HTTPD -DCONF_NO_HWLOC -DCONF_NO_OPENCL -DCONF_NO_TLS -DGIT_BRANCH=vasil -DGIT_COMMIT_HASH=5c87119
+C_DEFINES = -DBACKEND_TYPE=amd-cpu -DCONF_NO_CUDA -DGIT_BRANCH=vasil -DGIT_COMMIT_HASH=52bb383
 
-C_INCLUDES = -I/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/. 
+C_INCLUDES = -I/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/. -I/usr/local/include -I/usr/local/opt/openssl/include 
 

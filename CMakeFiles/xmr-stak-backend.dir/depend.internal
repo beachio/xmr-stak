@@ -44,6 +44,14 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cp
  xmrstak/params.hpp
 CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/hwlocMemory.cpp
+ /usr/local/include/hwloc.h
+ /usr/local/include/hwloc/autogen/config.h
+ /usr/local/include/hwloc/bitmap.h
+ /usr/local/include/hwloc/deprecated.h
+ /usr/local/include/hwloc/diff.h
+ /usr/local/include/hwloc/helper.h
+ /usr/local/include/hwloc/inlines.h
+ /usr/local/include/hwloc/rename.h
  xmrstak/backend/cpu/hwlocMemory.hpp
  xmrstak/misc/console.hpp
  xmrstak/misc/environment.hpp
@@ -86,6 +94,14 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/jconf.hpp
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/minethd.cpp
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/cpu/minethd.hpp
+ /usr/local/include/hwloc.h
+ /usr/local/include/hwloc/autogen/config.h
+ /usr/local/include/hwloc/bitmap.h
+ /usr/local/include/hwloc/deprecated.h
+ /usr/local/include/hwloc/diff.h
+ /usr/local/include/hwloc/helper.h
+ /usr/local/include/hwloc/inlines.h
+ /usr/local/include/hwloc/rename.h
  xmrstak/backend/cryptonight.hpp
  xmrstak/backend/globalStates.hpp
  xmrstak/backend/iBackend.hpp
@@ -110,6 +126,7 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/httpd.cpp
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/httpd.hpp
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/http/webdesign.hpp
+ /usr/local/include/microhttpd.h
  xmrstak/backend/globalStates.hpp
  xmrstak/backend/iBackend.hpp
  xmrstak/backend/miner_work.hpp
@@ -233,6 +250,47 @@ CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socket.cpp
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socket.hpp
  /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/net/socks.hpp
+ /usr/local/opt/openssl/include/openssl/asn1.h
+ /usr/local/opt/openssl/include/openssl/bio.h
+ /usr/local/opt/openssl/include/openssl/bn.h
+ /usr/local/opt/openssl/include/openssl/buffer.h
+ /usr/local/opt/openssl/include/openssl/comp.h
+ /usr/local/opt/openssl/include/openssl/crypto.h
+ /usr/local/opt/openssl/include/openssl/dh.h
+ /usr/local/opt/openssl/include/openssl/dsa.h
+ /usr/local/opt/openssl/include/openssl/dtls1.h
+ /usr/local/opt/openssl/include/openssl/e_os2.h
+ /usr/local/opt/openssl/include/openssl/ebcdic.h
+ /usr/local/opt/openssl/include/openssl/ec.h
+ /usr/local/opt/openssl/include/openssl/ecdh.h
+ /usr/local/opt/openssl/include/openssl/ecdsa.h
+ /usr/local/opt/openssl/include/openssl/err.h
+ /usr/local/opt/openssl/include/openssl/evp.h
+ /usr/local/opt/openssl/include/openssl/hmac.h
+ /usr/local/opt/openssl/include/openssl/kssl.h
+ /usr/local/opt/openssl/include/openssl/lhash.h
+ /usr/local/opt/openssl/include/openssl/obj_mac.h
+ /usr/local/opt/openssl/include/openssl/objects.h
+ /usr/local/opt/openssl/include/openssl/opensslconf.h
+ /usr/local/opt/openssl/include/openssl/opensslv.h
+ /usr/local/opt/openssl/include/openssl/ossl_typ.h
+ /usr/local/opt/openssl/include/openssl/pem.h
+ /usr/local/opt/openssl/include/openssl/pem2.h
+ /usr/local/opt/openssl/include/openssl/pkcs7.h
+ /usr/local/opt/openssl/include/openssl/pqueue.h
+ /usr/local/opt/openssl/include/openssl/rsa.h
+ /usr/local/opt/openssl/include/openssl/safestack.h
+ /usr/local/opt/openssl/include/openssl/sha.h
+ /usr/local/opt/openssl/include/openssl/srtp.h
+ /usr/local/opt/openssl/include/openssl/ssl.h
+ /usr/local/opt/openssl/include/openssl/ssl2.h
+ /usr/local/opt/openssl/include/openssl/ssl23.h
+ /usr/local/opt/openssl/include/openssl/ssl3.h
+ /usr/local/opt/openssl/include/openssl/stack.h
+ /usr/local/opt/openssl/include/openssl/symhacks.h
+ /usr/local/opt/openssl/include/openssl/tls1.h
+ /usr/local/opt/openssl/include/openssl/x509.h
+ /usr/local/opt/openssl/include/openssl/x509_vfy.h
  xmrstak/backend/globalStates.hpp
  xmrstak/backend/iBackend.hpp
  xmrstak/backend/miner_work.hpp
