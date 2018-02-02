@@ -80,7 +80,7 @@ set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
 set(nvcc_flags -m64;-Dxmrstak_cuda_backend_EXPORTS) # list
 set(CUDA_NVCC_INCLUDE_DIRS "/usr/local/cuda/include;/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/.;/usr/local/include;/usr/local/opt/openssl/include;/usr/local/include;/usr/local/cuda/include") # list (needs to be in quotes to handle spaces properly).
-set(CUDA_NVCC_COMPILE_DEFINITIONS [==[XMR_STAK_LARGEGRID=ON;XMRSTAK_CUDA_ARCH_LIST=30+35+37+50+52+60+61+62;CONF_NO_OPENCL;GIT_COMMIT_HASH=52bb383;GIT_BRANCH=vasil;BACKEND_TYPE=nvidia-cpu]==]) # list (needs to be in lua quotes see #16510 ).
+set(CUDA_NVCC_COMPILE_DEFINITIONS [==[XMR_STAK_LARGEGRID=ON;XMRSTAK_CUDA_ARCH_LIST=30+35+37+50+52+60+61+62;CONF_NO_OPENCL;GIT_COMMIT_HASH=5b38785;GIT_BRANCH=vasil;BACKEND_TYPE=nvidia-cpu]==]) # list (needs to be in lua quotes see #16510 ).
 set(format_flag "-c") # string
 set(cuda_language_flag ) # list
 

@@ -218,13 +218,7 @@ OPENSSL_ROOT_DIR:UNINITIALIZED=/usr/local/opt/openssl
 OPENSSL_SSL_LIBRARY:FILEPATH=/usr/local/opt/openssl/lib/libssl.dylib
 
 //Enable or disable OpenCL spport (AMD GPU support)
-OpenCL_ENABLE:BOOL=ON
-
-//Path to a file.
-OpenCL_INCLUDE_DIR:PATH=/System/Library/Frameworks/OpenCL.framework
-
-//Path to a library.
-OpenCL_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenCL.framework
+OpenCL_ENABLE:BOOL=OFF
 
 //Enable or disable the requirement of OpenSSL
 OpenSSL_ENABLE:BOOL=ON
@@ -249,9 +243,6 @@ xmr-stak_BINARY_DIR:STATIC=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak
 
 //Value Computed by CMake
 xmr-stak_SOURCE_DIR:STATIC=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak
-
-//Dependencies for the target
-xmrstak_opencl_backend_LIB_DEPENDS:STATIC=general;/System/Library/Frameworks/OpenCL.framework;general;xmr-stak-backend;
 
 
 ########################
@@ -393,30 +384,16 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding OpenCL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCL:INTERNAL=[/System/Library/Frameworks/OpenCL.framework][/System/Library/Frameworks/OpenCL.framework][v1.2()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/local/opt/openssl/lib/libcrypto.dylib][/usr/local/opt/openssl/include][v1.0.2n()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//Have symbol CL_VERSION_1_2
-OPENCL_VERSION_1_2:INTERNAL=1
-//Have symbol CL_VERSION_2_0
-OPENCL_VERSION_2_0:INTERNAL=
-//Have symbol CL_VERSION_2_1
-OPENCL_VERSION_2_1:INTERNAL=
-//Have symbol CL_VERSION_2_2
-OPENCL_VERSION_2_2:INTERNAL=
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
 OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR
 OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_SSL_LIBRARY
 OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OpenCL_INCLUDE_DIR
-OpenCL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OpenCL_LIBRARY
-OpenCL_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //STRINGS property for variable: XMR-STAK_COMPILE

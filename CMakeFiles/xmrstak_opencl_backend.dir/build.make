@@ -144,10 +144,6 @@ bin/libxmrstak_opencl_backend.dylib: CMakeFiles/xmrstak_opencl_backend.dir/xmrst
 bin/libxmrstak_opencl_backend.dylib: CMakeFiles/xmrstak_opencl_backend.dir/build.make
 bin/libxmrstak_opencl_backend.dylib: bin/libxmr-stak-backend.a
 bin/libxmrstak_opencl_backend.dylib: bin/libxmr-stak-c.a
-bin/libxmrstak_opencl_backend.dylib: /usr/local/lib/libmicrohttpd.dylib
-bin/libxmrstak_opencl_backend.dylib: /usr/local/opt/openssl/lib/libssl.dylib
-bin/libxmrstak_opencl_backend.dylib: /usr/local/opt/openssl/lib/libcrypto.dylib
-bin/libxmrstak_opencl_backend.dylib: /usr/local/lib/libhwloc.dylib
 bin/libxmrstak_opencl_backend.dylib: CMakeFiles/xmrstak_opencl_backend.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library bin/libxmrstak_opencl_backend.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xmrstak_opencl_backend.dir/link.txt --verbose=$(VERBOSE)

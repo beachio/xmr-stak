@@ -56,29 +56,6 @@ CMAKE_BINARY_DIR = /Volumes/Mine/Upwork/Categorized/C++/xmr-stak
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.10.1/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.10.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.10.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -102,6 +79,29 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/local/Cellar/cmake/3.10.1/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/Cellar/cmake/3.10.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/Cellar/cmake/3.10.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/Cellar/cmake/3.10.1/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -170,19 +170,6 @@ xmr-stak/fast:
 .PHONY : xmr-stak/fast
 
 #=============================================================================
-# Target rules for targets named xmrstak_opencl_backend
-
-# Build rule for target.
-xmrstak_opencl_backend: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 xmrstak_opencl_backend
-.PHONY : xmrstak_opencl_backend
-
-# fast build rule for target.
-xmrstak_opencl_backend/fast:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/build
-.PHONY : xmrstak_opencl_backend/fast
-
-#=============================================================================
 # Target rules for targets named xmr-stak-backend
 
 # Build rule for target.
@@ -207,87 +194,6 @@ xmr-stak-c: cmake_check_build_system
 xmr-stak-c/fast:
 	$(MAKE) -f CMakeFiles/xmr-stak-c.dir/build.make CMakeFiles/xmr-stak-c.dir/build
 .PHONY : xmr-stak-c/fast
-
-xmrstak/backend/amd/amd_gpu/gpu.o: xmrstak/backend/amd/amd_gpu/gpu.cpp.o
-
-.PHONY : xmrstak/backend/amd/amd_gpu/gpu.o
-
-# target to build an object file
-xmrstak/backend/amd/amd_gpu/gpu.cpp.o:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.o
-.PHONY : xmrstak/backend/amd/amd_gpu/gpu.cpp.o
-
-xmrstak/backend/amd/amd_gpu/gpu.i: xmrstak/backend/amd/amd_gpu/gpu.cpp.i
-
-.PHONY : xmrstak/backend/amd/amd_gpu/gpu.i
-
-# target to preprocess a source file
-xmrstak/backend/amd/amd_gpu/gpu.cpp.i:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.i
-.PHONY : xmrstak/backend/amd/amd_gpu/gpu.cpp.i
-
-xmrstak/backend/amd/amd_gpu/gpu.s: xmrstak/backend/amd/amd_gpu/gpu.cpp.s
-
-.PHONY : xmrstak/backend/amd/amd_gpu/gpu.s
-
-# target to generate assembly for a file
-xmrstak/backend/amd/amd_gpu/gpu.cpp.s:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.s
-.PHONY : xmrstak/backend/amd/amd_gpu/gpu.cpp.s
-
-xmrstak/backend/amd/jconf.o: xmrstak/backend/amd/jconf.cpp.o
-
-.PHONY : xmrstak/backend/amd/jconf.o
-
-# target to build an object file
-xmrstak/backend/amd/jconf.cpp.o:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.o
-.PHONY : xmrstak/backend/amd/jconf.cpp.o
-
-xmrstak/backend/amd/jconf.i: xmrstak/backend/amd/jconf.cpp.i
-
-.PHONY : xmrstak/backend/amd/jconf.i
-
-# target to preprocess a source file
-xmrstak/backend/amd/jconf.cpp.i:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.i
-.PHONY : xmrstak/backend/amd/jconf.cpp.i
-
-xmrstak/backend/amd/jconf.s: xmrstak/backend/amd/jconf.cpp.s
-
-.PHONY : xmrstak/backend/amd/jconf.s
-
-# target to generate assembly for a file
-xmrstak/backend/amd/jconf.cpp.s:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.s
-.PHONY : xmrstak/backend/amd/jconf.cpp.s
-
-xmrstak/backend/amd/minethd.o: xmrstak/backend/amd/minethd.cpp.o
-
-.PHONY : xmrstak/backend/amd/minethd.o
-
-# target to build an object file
-xmrstak/backend/amd/minethd.cpp.o:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.o
-.PHONY : xmrstak/backend/amd/minethd.cpp.o
-
-xmrstak/backend/amd/minethd.i: xmrstak/backend/amd/minethd.cpp.i
-
-.PHONY : xmrstak/backend/amd/minethd.i
-
-# target to preprocess a source file
-xmrstak/backend/amd/minethd.cpp.i:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.i
-.PHONY : xmrstak/backend/amd/minethd.cpp.i
-
-xmrstak/backend/amd/minethd.s: xmrstak/backend/amd/minethd.cpp.s
-
-.PHONY : xmrstak/backend/amd/minethd.s
-
-# target to generate assembly for a file
-xmrstak/backend/amd/minethd.cpp.s:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.s
-.PHONY : xmrstak/backend/amd/minethd.cpp.s
 
 xmrstak/backend/backendConnector.o: xmrstak/backend/backendConnector.cpp.o
 
@@ -916,25 +822,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... install/local"
-	@echo "... xmr-stak"
 	@echo "... install/strip"
 	@echo "... install"
-	@echo "... xmrstak_opencl_backend"
+	@echo "... install/local"
+	@echo "... xmr-stak"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... xmr-stak-backend"
 	@echo "... list_install_components"
 	@echo "... xmr-stak-c"
-	@echo "... xmrstak/backend/amd/amd_gpu/gpu.o"
-	@echo "... xmrstak/backend/amd/amd_gpu/gpu.i"
-	@echo "... xmrstak/backend/amd/amd_gpu/gpu.s"
-	@echo "... xmrstak/backend/amd/jconf.o"
-	@echo "... xmrstak/backend/amd/jconf.i"
-	@echo "... xmrstak/backend/amd/jconf.s"
-	@echo "... xmrstak/backend/amd/minethd.o"
-	@echo "... xmrstak/backend/amd/minethd.i"
-	@echo "... xmrstak/backend/amd/minethd.s"
 	@echo "... xmrstak/backend/backendConnector.o"
 	@echo "... xmrstak/backend/backendConnector.i"
 	@echo "... xmrstak/backend/backendConnector.s"

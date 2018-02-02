@@ -1,9 +1,8 @@
-/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/rebuild_cache.dir
-/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/install/local.dir
-/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak.dir
 /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/install/strip.dir
 /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/install.dir
-/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmrstak_opencl_backend.dir
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/install/local.dir
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak.dir
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/rebuild_cache.dir
 /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/edit_cache.dir
 /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/xmr-stak-backend.dir
 /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/list_install_components.dir

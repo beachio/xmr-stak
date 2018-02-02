@@ -98,6 +98,7 @@ void help()
 	cout<<"  -p, --pass PASSWD     pool password, in the most cases x or empty \"\""<<endl;
 	cout<<"  -r, --coreCount 	   set core count, default value is your core count \"\""<<endl;
 	cout<<"  --use-nicehash        the pool should run in nicehash mode"<<endl;
+	cout<<"  --timeInterval        the pool hash rate should show in time"<<endl;
 	cout<<" \n"<<endl;
 #ifdef _WIN32
 	cout<<"Environment variables:\n"<<endl;
@@ -596,6 +597,17 @@ int main(int argc, char *argv[])
 				return 1;
 			}
 			params::inst().slowMemory = argv[i] ;
+		}
+		else if(opName.compare("--timeInterval") == 0)
+		{
+			++i;
+			if( i >=argc )
+			{
+				printer::inst()->print_msg(L0, "No argument for parameter '--timeInterval' given");
+				win_exit();
+				return 1;
+			}
+			params::inst().timeInterval = atoi(argv[i]);
 		}
 		else
 		{

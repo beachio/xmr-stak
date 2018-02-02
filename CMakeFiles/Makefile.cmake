@@ -33,7 +33,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeLanguageInformation.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake"
-  "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakePushCheckState.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeSystem.cmake.in"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -94,7 +93,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
-  "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/FindOpenCL.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/FindOpenSSL.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/FindPackageMessage.cmake"
@@ -131,7 +129,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/xmr-stak.dir/DependInfo.cmake"
-  "CMakeFiles/xmrstak_opencl_backend.dir/DependInfo.cmake"
   "CMakeFiles/xmr-stak-backend.dir/DependInfo.cmake"
   "CMakeFiles/xmr-stak-c.dir/DependInfo.cmake"
   )

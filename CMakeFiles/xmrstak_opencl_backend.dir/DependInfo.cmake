@@ -14,16 +14,17 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "BACKEND_TYPE=amd-cpu"
   "CONF_NO_CUDA"
+  "CONF_NO_HTTPD"
+  "CONF_NO_HWLOC"
+  "CONF_NO_TLS"
   "GIT_BRANCH=vasil"
-  "GIT_COMMIT_HASH=52bb383"
+  "GIT_COMMIT_HASH=5b38785"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "/System/Library/Frameworks/OpenCL.framework"
-  "/usr/local/include"
-  "/usr/local/opt/openssl/include"
   )
 
 # Targets to which this target links.

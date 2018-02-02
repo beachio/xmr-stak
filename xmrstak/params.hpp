@@ -47,6 +47,7 @@ struct params
 	std::string slowMemory;
 
 	int64_t coreCount = 0;
+	int64_t timeInterval = 10;
 	bool allowUAC = true;
 	std::string minerArg0;
 	std::string minerArgs;

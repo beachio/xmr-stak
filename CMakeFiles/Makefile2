@@ -98,44 +98,6 @@ clean: CMakeFiles/xmr-stak.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/xmrstak_opencl_backend.dir
-
-# All Build rule for target.
-CMakeFiles/xmrstak_opencl_backend.dir/all: CMakeFiles/xmr-stak-backend.dir/all
-CMakeFiles/xmrstak_opencl_backend.dir/all: CMakeFiles/xmr-stak-c.dir/all
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/depend
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=27,28,29,30 "Built target xmrstak_opencl_backend"
-.PHONY : CMakeFiles/xmrstak_opencl_backend.dir/all
-
-# Include target in all.
-all: CMakeFiles/xmrstak_opencl_backend.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/xmrstak_opencl_backend.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles 28
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/xmrstak_opencl_backend.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles 0
-.PHONY : CMakeFiles/xmrstak_opencl_backend.dir/rule
-
-# Convenience name for target.
-xmrstak_opencl_backend: CMakeFiles/xmrstak_opencl_backend.dir/rule
-
-.PHONY : xmrstak_opencl_backend
-
-# clean rule for target.
-CMakeFiles/xmrstak_opencl_backend.dir/clean:
-	$(MAKE) -f CMakeFiles/xmrstak_opencl_backend.dir/build.make CMakeFiles/xmrstak_opencl_backend.dir/clean
-.PHONY : CMakeFiles/xmrstak_opencl_backend.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/xmrstak_opencl_backend.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/xmr-stak-backend.dir
 
 # All Build rule for target.

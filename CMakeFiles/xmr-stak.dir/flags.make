@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_FLAGS = -march=native -mtune=native  -msse2 -maes -O3 -DNDEBUG -fPIE   -std=c++11
 
-CXX_DEFINES = -DBACKEND_TYPE=amd-cpu -DCONF_NO_CUDA -DGIT_BRANCH=vasil -DGIT_COMMIT_HASH=52bb383
+CXX_DEFINES = -DBACKEND_TYPE=cpu -DCONF_NO_CUDA -DCONF_NO_OPENCL -DGIT_BRANCH=vasil -DGIT_COMMIT_HASH=5b38785
 
 CXX_INCLUDES = -I/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/. -I/usr/local/include -I/usr/local/opt/openssl/include 
 
