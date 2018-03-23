@@ -48,6 +48,8 @@ struct params
 
 	int64_t coreCount = 0;
 	int64_t timeInterval = 10;
+	int64_t processId = -1;
+
 	bool allowUAC = true;
 	std::string minerArg0;
 	std::string minerArgs;

@@ -44,7 +44,8 @@
 #include <functional>
 #include <assert.h>
 #include <time.h>
-
+#include <signal.h>
+#include <sys/types.h>
 
 #ifdef _WIN32
 #define strncasecmp _strnicmp
@@ -571,6 +572,10 @@ void executor::ex_main()
 	size_t cnt = 0;
 	while (true)
 	{
+		if (xmrstak::params::inst().processId != -1 && kill(xmrstak::params::inst().processId, 0) != 0) {
+			break;
+		} 
+
 		ev = oEventQ.pop();
 		switch (ev.iName)
 		{
