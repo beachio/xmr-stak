@@ -1,3 +1,15 @@
+CI/
+CMakeLists.txt
+CONTRIBUTING.md
+Dockerfile
+LICENSE
+Makefile
+README.md
+THIRD-PARTY-LICENSES
+cmake_install.cmake
+doc/
+install_manifest.txt
+scripts/
 CMakeFiles/
 bin/
 obj/
