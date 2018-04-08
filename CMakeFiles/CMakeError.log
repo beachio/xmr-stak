@@ -1738,3 +1738,264 @@ int main(int argc, char** argv)
 #endif
 }
 
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75faa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75faa.dir/build.make CMakeFiles/cmTC_75faa.dir/build
+Building C object CMakeFiles/cmTC_75faa.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_75faa.dir/CheckSymbolExists.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_2'
+  return ((int*)(&CL_VERSION_2_2))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_75faa.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_75faa/fast] Error 2
+
+File /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5b6b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a5b6b.dir/build.make CMakeFiles/cmTC_a5b6b.dir/build
+Building C object CMakeFiles/cmTC_a5b6b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_a5b6b.dir/CheckSymbolExists.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_1'
+  return ((int*)(&CL_VERSION_2_1))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a5b6b.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_a5b6b/fast] Error 2
+
+File /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2d50/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b2d50.dir/build.make CMakeFiles/cmTC_b2d50.dir/build
+Building C object CMakeFiles/cmTC_b2d50.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_b2d50.dir/CheckSymbolExists.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_0'
+  return ((int*)(&CL_VERSION_2_0))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b2d50.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_b2d50/fast] Error 2
+
+File /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b94b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4b94b.dir/build.make CMakeFiles/cmTC_4b94b.dir/build
+Building C object CMakeFiles/cmTC_4b94b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_4b94b.dir/CheckSymbolExists.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_2'
+  return ((int*)(&CL_VERSION_2_2))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4b94b.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_4b94b/fast] Error 2
+
+File /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ee5c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1ee5c.dir/build.make CMakeFiles/cmTC_1ee5c.dir/build
+Building C object CMakeFiles/cmTC_1ee5c.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_1ee5c.dir/CheckSymbolExists.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_1'
+  return ((int*)(&CL_VERSION_2_1))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1ee5c.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_1ee5c/fast] Error 2
+
+File /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bf94/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3bf94.dir/build.make CMakeFiles/cmTC_3bf94.dir/build
+Building C object CMakeFiles/cmTC_3bf94.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_3bf94.dir/CheckSymbolExists.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_0'
+  return ((int*)(&CL_VERSION_2_0))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3bf94.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_3bf94/fast] Error 2
+
+File /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cebcd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cebcd.dir/build.make CMakeFiles/cmTC_cebcd.dir/build
+Building C object CMakeFiles/cmTC_cebcd.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_cebcd.dir/CheckSymbolExists.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_2'
+  return ((int*)(&CL_VERSION_2_2))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cebcd.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_cebcd/fast] Error 2
+
+File /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c85e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9c85e.dir/build.make CMakeFiles/cmTC_9c85e.dir/build
+Building C object CMakeFiles/cmTC_9c85e.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_9c85e.dir/CheckSymbolExists.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_1'
+  return ((int*)(&CL_VERSION_2_1))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9c85e.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_9c85e/fast] Error 2
+
+File /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f456/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3f456.dir/build.make CMakeFiles/cmTC_3f456.dir/build
+Building C object CMakeFiles/cmTC_3f456.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_3f456.dir/CheckSymbolExists.c.o   -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_0'
+  return ((int*)(&CL_VERSION_2_0))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3f456.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_3f456/fast] Error 2
+
+File /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

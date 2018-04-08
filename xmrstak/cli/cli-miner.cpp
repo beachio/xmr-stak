@@ -277,7 +277,7 @@ void do_guided_pool_config()
 	}
 
 	auto& rigid = params::inst().poolRigid;
-	if(rigid.empty() && !params::inst().userSetRigid)
+/*	if(rigid.empty() && !params::inst().userSetRigid)
 	{
 		prompt_once(prompted);
 
@@ -290,7 +290,7 @@ void do_guided_pool_config()
 		std::cout<<"- Rig identifier for pool-side statistics (needs pool support). Can be empty:"<<std::endl;
 		getline(std::cin, rigid);
 	}
-
+*/
 	bool tls;
 #ifdef CONF_NO_TLS
 	tls = false;

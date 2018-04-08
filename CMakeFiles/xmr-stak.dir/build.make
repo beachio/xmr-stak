@@ -60,15 +60,15 @@ include CMakeFiles/xmr-stak.dir/flags.make
 CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o: CMakeFiles/xmr-stak.dir/flags.make
 CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o: xmrstak/cli/cli-miner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/cli-miner.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/cli-miner.cpp
 
 CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/cli-miner.cpp > CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/cli-miner.cpp > CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.i
 
 CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/cli-miner.cpp -o CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/cli/cli-miner.cpp -o CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.s
 
 CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o.requires:
 

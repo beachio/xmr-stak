@@ -60,15 +60,15 @@ include CMakeFiles/xmrstak_opencl_backend.dir/flags.make
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.o: CMakeFiles/xmrstak_opencl_backend.dir/flags.make
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.o: xmrstak/backend/amd/amd_gpu/gpu.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/amd_gpu/gpu.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/amd_gpu/gpu.cpp
 
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/amd_gpu/gpu.cpp > CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/amd_gpu/gpu.cpp > CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.i
 
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/amd_gpu/gpu.cpp -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/amd_gpu/gpu.cpp -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.s
 
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/amd_gpu/gpu.cpp.o.prov
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.o: CMakeFiles/xmrstak_opencl_backend.dir/flags.make
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.o: xmrstak/backend/amd/jconf.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/jconf.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/jconf.cpp
 
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/jconf.cpp > CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/jconf.cpp > CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.i
 
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/jconf.cpp -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/jconf.cpp -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.s
 
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/jconf.cpp.o.provides.b
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.o: CMakeFiles/xmrstak_opencl_backend.dir/flags.make
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.o: xmrstak/backend/amd/minethd.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Mine/Upwork/Categorized/C++/xmr-stak/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/minethd.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.o -c /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/minethd.cpp
 
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/minethd.cpp > CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/minethd.cpp > CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.i
 
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/minethd.cpp -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Mine/Upwork/Categorized/C++/xmr-stak/xmrstak/backend/amd/minethd.cpp -o CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.s
 
 CMakeFiles/xmrstak_opencl_backend.dir/xmrstak/backend/amd/minethd.cpp.o.requires:
 
