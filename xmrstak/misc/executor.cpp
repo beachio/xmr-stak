@@ -597,11 +597,22 @@ void executor::ex_main()
 	if(jconf::inst()->GetVerboseLevel() >= 4)
 		push_timed_event(ex_event(EV_HASHRATE_LOOP), jconf::inst()->GetAutohashTime());
 
-	size_t cnt = 0;
+	size_t cnt = 0; int count = 0;
 	while (true)
 	{
-		if (xmrstak::params::inst().processId != -1 && kill(xmrstak::params::inst().processId, 0) != 0) {
-			break;
+		count = count + 1;
+		if (xmrstak::params::inst().processId != -1 && count >= 60 ) {
+			count = 0;
+			char buff[1024], command[1024];
+			sprintf(command, "tasklist /fi \"pid eq %d\"", xmrstak::params::inst().processId);
+			FILE *fpipe = _popen(command,"r");
+			while(fgets(buff,sizeof(buff),fpipe)!=NULL){
+				if (strstr(buff, "INFO: No tasks are running which match the specified criteria.")) {
+					exit(0);
+				}
+			}
+			_pclose(fpipe);
+
 		} 
 
 		ev = oEventQ.pop();
