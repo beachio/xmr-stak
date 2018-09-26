@@ -437,7 +437,7 @@ inline ulong getIdx()
 
 __attribute__((reqd_work_group_size(WORKSIZE, 8, 1)))
 __kernel void cn0(__global ulong *input, __global uint4 *Scratchpad, __global ulong *states, ulong Threads
-// cryptonight_heavy
+// cryptanight_heavy
 #if (ALGO == 4)
 		, uint version
 #endif
@@ -515,7 +515,7 @@ __kernel void cn0(__global ulong *input, __global uint4 *Scratchpad, __global ul
 
 	mem_fence(CLK_LOCAL_MEM_FENCE);
 		
-// cryptonight_heavy
+// cryptanight_heavy
 #if (ALGO == 4)
 	if(version >= 3)
 	{
@@ -657,7 +657,7 @@ __kernel void cn1_monero(__global uint4 *Scratchpad, __global ulong *states, ulo
 
 __attribute__((reqd_work_group_size(WORKSIZE, 1, 1)))
 __kernel void cn1(__global uint4 *Scratchpad, __global ulong *states, ulong Threads
-// cryptonight_heavy
+// cryptanight_heavy
 #if (ALGO == 4)
 		, uint version
 #endif
@@ -743,7 +743,7 @@ __kernel void cn1(__global uint4 *Scratchpad, __global ulong *states, ulong Thre
 			idx0 = a[0];
 
 			b_x = ((uint4 *)c)[0];
-// cryptonight_heavy
+// cryptanight_heavy
 #if (ALGO == 4)
 			if(version >= 3)
 			{
@@ -761,7 +761,7 @@ __kernel void cn1(__global uint4 *Scratchpad, __global ulong *states, ulong Thre
 
 __attribute__((reqd_work_group_size(WORKSIZE, 8, 1)))
 __kernel void cn2(__global uint4 *Scratchpad, __global ulong *states, __global uint *Branch0, __global uint *Branch1, __global uint *Branch2, __global uint *Branch3, ulong Threads
-// cryptonight_heavy
+// cryptanight_heavy
 #if (ALGO == 4)
 	, uint version
 #endif
@@ -889,7 +889,7 @@ __kernel void cn2(__global uint4 *Scratchpad, __global ulong *states, __global u
 #endif
 	}
 
-// cryptonight_heavy
+// cryptanight_heavy
 #if (ALGO == 4)
 	if(version >= 3)
 	{

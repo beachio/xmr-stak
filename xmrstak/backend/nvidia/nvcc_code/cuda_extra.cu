@@ -109,7 +109,7 @@ __device__ __forceinline__ void mix_and_propagate( uint32_t* state )
 }
 
 template<xmrstak_algo ALGO>
-__global__ void cryptonight_extra_gpu_prepare( int threads, uint32_t * __restrict__ d_input, uint32_t len, uint32_t startNonce, uint32_t * __restrict__ d_ctx_state, uint32_t * __restrict__ d_ctx_state2, uint32_t * __restrict__ d_ctx_a, uint32_t * __restrict__ d_ctx_b, uint32_t * __restrict__ d_ctx_key1, uint32_t * __restrict__ d_ctx_key2 )
+__global__ void cryptanight_extra_gpu_prepare( int threads, uint32_t * __restrict__ d_input, uint32_t len, uint32_t startNonce, uint32_t * __restrict__ d_ctx_state, uint32_t * __restrict__ d_ctx_state2, uint32_t * __restrict__ d_ctx_a, uint32_t * __restrict__ d_ctx_b, uint32_t * __restrict__ d_ctx_key1, uint32_t * __restrict__ d_ctx_key2 )
 {
 	int thread = ( blockDim.x * blockIdx.x + threadIdx.x );
 	__shared__ uint32_t sharedMemory[1024];
@@ -166,7 +166,7 @@ __global__ void cryptonight_extra_gpu_prepare( int threads, uint32_t * __restric
 }
 
 template<xmrstak_algo ALGO>
-__global__ void cryptonight_extra_gpu_final( int threads, uint64_t target, uint32_t* __restrict__ d_res_count, uint32_t * __restrict__ d_res_nonce, uint32_t * __restrict__ d_ctx_state,uint32_t * __restrict__ d_ctx_key2 )
+__global__ void cryptanight_extra_gpu_final( int threads, uint64_t target, uint32_t* __restrict__ d_res_count, uint32_t * __restrict__ d_res_nonce, uint32_t * __restrict__ d_ctx_state,uint32_t * __restrict__ d_ctx_key2 )
 {
 	const int thread = blockDim.x * blockIdx.x + threadIdx.x;
 
@@ -320,7 +320,7 @@ extern "C" void cryptonight_extra_cpu_prepare(nvid_ctx* ctx, uint32_t startNonce
 
 	if(miner_algo == cryptonight_heavy)
 	{
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_extra_gpu_prepare<cryptonight_heavy><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
+		CUDA_CHECK_KERNEL(ctx->device_id, cryptanight_extra_gpu_prepare<cryptonight_heavy><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
 			ctx->d_ctx_state,ctx->d_ctx_state2, ctx->d_ctx_a, ctx->d_ctx_b, ctx->d_ctx_key1, ctx->d_ctx_key2 ));
 	}
 	else
@@ -328,7 +328,7 @@ extern "C" void cryptonight_extra_cpu_prepare(nvid_ctx* ctx, uint32_t startNonce
 		/* pass two times d_ctx_state because the second state is used later in phase1,
 		 * the first is used than in phase3
 		 */
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_extra_gpu_prepare<invalid_algo><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
+		CUDA_CHECK_KERNEL(ctx->device_id, cryptanight_extra_gpu_prepare<invalid_algo><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
 			ctx->d_ctx_state, ctx->d_ctx_state, ctx->d_ctx_a, ctx->d_ctx_b, ctx->d_ctx_key1, ctx->d_ctx_key2 ));
 	}
 }
@@ -349,7 +349,7 @@ extern "C" void cryptonight_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, 
 		CUDA_CHECK_MSG_KERNEL(
 			ctx->device_id,
 			"\n**suggestion: Try to increase the value of the attribute 'bfactor' in the NVIDIA config file.**",
-			cryptonight_extra_gpu_final<cryptonight_heavy><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
+			cryptanight_extra_gpu_final<cryptonight_heavy><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
 		);
 	}
 	else
@@ -358,7 +358,7 @@ extern "C" void cryptonight_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, 
 		CUDA_CHECK_MSG_KERNEL(
 			ctx->device_id,
 			"\n**suggestion: Try to increase the value of the attribute 'bfactor' in the NVIDIA config file.**",
-			cryptonight_extra_gpu_final<invalid_algo><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
+			cryptanight_extra_gpu_final<invalid_algo><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
 		);
 	}
 
@@ -509,7 +509,7 @@ extern "C" int cuda_get_deviceinfo(nvid_ctx* ctx)
 	if(ctx->device_threads == -1)
 	{
 		/* sm_20 devices can only run 512 threads per cuda block
-		 * `cryptonight_core_gpu_phase1` and `cryptonight_core_gpu_phase3` starts
+		 * `cryptanight_core_gpu_phase1` and `cryptanight_core_gpu_phase3` starts
 		 * `8 * ctx->device_threads` threads per block
 		 */
 		ctx->device_threads = 64;

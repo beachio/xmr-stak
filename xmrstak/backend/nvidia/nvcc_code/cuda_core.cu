@@ -119,7 +119,7 @@ __device__ __forceinline__ void storeGlobal64( T* addr, T const & val )
 }
 
 template<size_t ITERATIONS, uint32_t MEMORY>
-__global__ void cryptonight_core_gpu_phase1( int threads, int bfactor, int partidx, uint32_t * __restrict__ long_state, uint32_t * __restrict__ ctx_state2, uint32_t * __restrict__ ctx_key1 )
+__global__ void cryptanight_core_gpu_phase1( int threads, int bfactor, int partidx, uint32_t * __restrict__ long_state, uint32_t * __restrict__ ctx_state2, uint32_t * __restrict__ ctx_key1 )
 {
 	__shared__ uint32_t sharedMemory[1024];
 
@@ -198,7 +198,7 @@ template<size_t ITERATIONS, uint32_t MEMORY, uint32_t MASK, xmrstak_algo ALGO>
 #ifdef XMR_STAK_THREADS
 __launch_bounds__( XMR_STAK_THREADS * 4 )
 #endif
-__global__ void cryptonight_core_gpu_phase2( int threads, int bfactor, int partidx, uint32_t * d_long_state, uint32_t * d_ctx_a, uint32_t * d_ctx_b, uint32_t * d_ctx_state,
+__global__ void cryptanight_core_gpu_phase2( int threads, int bfactor, int partidx, uint32_t * d_long_state, uint32_t * d_ctx_a, uint32_t * d_ctx_b, uint32_t * d_ctx_state,
 		uint32_t startNonce, uint32_t * __restrict__ d_input )
 {
 	__shared__ uint32_t sharedMemory[1024];
@@ -340,7 +340,7 @@ __global__ void cryptonight_core_gpu_phase2( int threads, int bfactor, int parti
 }
 
 template<size_t ITERATIONS, uint32_t MEMORY, xmrstak_algo ALGO>
-__global__ void cryptonight_core_gpu_phase3( int threads, int bfactor, int partidx, const uint32_t * __restrict__ long_state, uint32_t * __restrict__ d_ctx_state, uint32_t * __restrict__ d_ctx_key2 )
+__global__ void cryptanight_core_gpu_phase3( int threads, int bfactor, int partidx, const uint32_t * __restrict__ long_state, uint32_t * __restrict__ d_ctx_state, uint32_t * __restrict__ d_ctx_key2 )
 {
 	__shared__ uint32_t sharedMemory[1024];
 
@@ -413,7 +413,7 @@ void cryptonight_core_gpu_hash(nvid_ctx* ctx, uint32_t nonce)
 
 	for ( int i = 0; i < partcountOneThree; i++ )
 	{
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_core_gpu_phase1<ITERATIONS,MEMORY><<< grid, block8 >>>( ctx->device_blocks*ctx->device_threads,
+		CUDA_CHECK_KERNEL(ctx->device_id, cryptanight_core_gpu_phase1<ITERATIONS,MEMORY><<< grid, block8 >>>( ctx->device_blocks*ctx->device_threads,
 			bfactorOneThree, i,
 			ctx->d_long_state, 
 			(ALGO == cryptonight_heavy ? ctx->d_ctx_state2 : ctx->d_ctx_state),
@@ -428,7 +428,7 @@ void cryptonight_core_gpu_hash(nvid_ctx* ctx, uint32_t nonce)
         CUDA_CHECK_MSG_KERNEL(
 			ctx->device_id,
 			"\n**suggestion: Try to increase the value of the attribute 'bfactor' or \nreduce 'threads' in the NVIDIA config file.**",
-			cryptonight_core_gpu_phase2<ITERATIONS,MEMORY,MASK,ALGO><<<
+			cryptanight_core_gpu_phase2<ITERATIONS,MEMORY,MASK,ALGO><<<
 				grid,
 				block4,
 				block4.x * sizeof(uint32_t) * static_cast< int >( ctx->device_arch[0] < 3 )
@@ -458,7 +458,7 @@ void cryptonight_core_gpu_hash(nvid_ctx* ctx, uint32_t nonce)
 
 	for ( int i = 0; i < roundsPhase3; i++ )
 	{
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_core_gpu_phase3<ITERATIONS,MEMORY, ALGO><<< 
+		CUDA_CHECK_KERNEL(ctx->device_id, cryptanight_core_gpu_phase3<ITERATIONS,MEMORY, ALGO><<< 
 			grid,
 			block8,
 			block8.x * sizeof(uint32_t) * static_cast< int >( ctx->device_arch[0] < 3 )
