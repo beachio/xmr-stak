@@ -25,6 +25,7 @@ public:
 	struct thd_cfg {
 		int iMultiway;
 		bool bNoPrefetch;
+		std::string asm_version_str;
 		long long iCpuAff;
 	};
 
@@ -41,4 +42,4 @@ private:
 };
 
 } // namespace cpu
-} // namepsace xmrstak
+} // namespace xmrstak

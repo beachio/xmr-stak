@@ -108,12 +108,13 @@ bool jconf::GetThreadConfig(size_t id, thd_cfg &cfg)
 	if(!oThdConf.IsObject())
 		return false;
 
-	const Value *mode, *no_prefetch, *aff;
+	const Value *mode, *no_prefetch, *aff, *asm_version;
 	mode = GetObjectMember(oThdConf, "low_power_mode");
 	no_prefetch = GetObjectMember(oThdConf, "no_prefetch");
 	aff = GetObjectMember(oThdConf, "affine_to_cpu");
+	asm_version = GetObjectMember(oThdConf, "asm");
 
-	if(mode == nullptr || no_prefetch == nullptr || aff == nullptr)
+	if(mode == nullptr || no_prefetch == nullptr || aff == nullptr || asm_version == nullptr)
 		return false;
 
 	if(!mode->IsBool() && !mode->IsNumber())
@@ -139,6 +140,10 @@ bool jconf::GetThreadConfig(size_t id, thd_cfg &cfg)
 		cfg.iCpuAff = aff->GetInt64();
 	else
 		cfg.iCpuAff = -1;
+
+	if(!asm_version->IsString())
+		return false;
+	cfg.asm_version_str = asm_version->GetString();
 
 	return true;
 }
@@ -269,7 +274,7 @@ bool jconf::parse_config(const char* sFilename)
 	buffer[0] = '{';
 	buffer[flen] = '}';
 	buffer[flen + 1] = '\0';
-	std::cout << buffer << std::endl;
+
 	prv->jsonDoc.Parse<kParseCommentsFlag|kParseTrailingCommasFlag>(buffer, flen+2);
 	free(buffer);
 
@@ -323,4 +328,4 @@ bool jconf::parse_config(const char* sFilename)
 }
 
 } // namespace cpu
-} // namepsace xmrstak
+} // namespace xmrstak
