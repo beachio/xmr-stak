@@ -22,11 +22,11 @@ POOLCONF],
  * Currency to mine. Supported values:
  *
  *    aeon7 (use this for Aeon's new PoW)
- *    bbscoin (automatic switch with block version 3 to cryptonight_v7)
- *    bittube (uses cryptonight_bittube2 algorithm)
+ *    bbscoin (automatic switch with block version 3 to crypto_night_v7)
+ *    bittube (uses crypto_night_bittube2 algorithm)
  *    freehaven
  *    graft
- *    haven (automatic switch with block version 3 to cryptonight_haven)
+ *    haven (automatic switch with block version 3 to crypto_night_haven)
  *    intense
  *    masari
  *    monero (use this to support Monero's Oct 2018 fork)
@@ -37,18 +37,18 @@ POOLCONF],
  * Native algorithms which not depends on any block versions:
  *
  *    # 1MiB scratchpad memory
- *    cryptonight_lite
- *    cryptonight_lite_v7
- *    cryptonight_lite_v7_xor (algorithm used by ipbc)
+ *    crypto_night_lite
+ *    crypto_night_lite_v7
+ *    crypto_night_lite_v7_xor (algorithm used by ipbc)
  *    # 2MiB scratchpad memory
- *    cryptonight
- *    cryptonight_superfast
- *    cryptonight_v7
- *    cryptonight_v8
+ *    crypto_night
+ *    crypto_night_superfast
+ *    crypto_night_v7
+ *    crypto_night_v8
  *    # 4MiB scratchpad memory
- *    cryptonight_bittube2
- *    cryptonight_haven
- *    cryptonight_heavy
+ *    crypto_night_bittube2
+ *    crypto_night_haven
+ *    crypto_night_heavy
  */
 
 "currency" : "CURRENCY",

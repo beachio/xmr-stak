@@ -3,7 +3,7 @@ R"===(
  * @author SChernykh
  */
 
-// cryptonight_monero_v8
+// crypto_night_monero_v8
 #if(ALGO==11)
 
 static const __constant uint RCP_C[256] =

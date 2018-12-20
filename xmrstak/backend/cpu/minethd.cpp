@@ -405,7 +405,7 @@ bool minethd::self_test()
 
 		if(!bResult)
 			printer::inst()->print_msg(L0,
-				"Cryptonight hash self-test failed. This might be caused by bad compiler optimizations.");
+				"Crypto_night hash self-test failed. This might be caused by bad compiler optimizations.");
 	}
 
 	for (int i = 0; i < MAX_N; i++)

@@ -58,7 +58,7 @@ __constant__ uint8_t d_sub_byte[16][16] ={
 	{0x8c, 0xa1, 0x89, 0x0d, 0xbf, 0xe6, 0x42, 0x68, 0x41, 0x99, 0x2d, 0x0f, 0xb0, 0x54, 0xbb, 0x16 }
 };
 
-__device__ __forceinline__ void cryptonight_aes_set_key( uint32_t * __restrict__ key, const uint32_t * __restrict__ data )
+__device__ __forceinline__ void crypto_night_aes_set_key( uint32_t * __restrict__ key, const uint32_t * __restrict__ data )
 {
 	int i, j;
 	uint8_t temp[4];
@@ -109,7 +109,7 @@ __device__ __forceinline__ void mix_and_propagate( uint32_t* state )
 }
 
 template<xmrstak_algo ALGO>
-__global__ void cryptonight_extra_gpu_prepare( int threads, uint32_t * __restrict__ d_input, uint32_t len, uint32_t startNonce, uint32_t * __restrict__ d_ctx_state, uint32_t * __restrict__ d_ctx_state2, uint32_t * __restrict__ d_ctx_a, uint32_t * __restrict__ d_ctx_b, uint32_t * __restrict__ d_ctx_key1, uint32_t * __restrict__ d_ctx_key2 )
+__global__ void crypto_night_extra_gpu_prepare( int threads, uint32_t * __restrict__ d_input, uint32_t len, uint32_t startNonce, uint32_t * __restrict__ d_ctx_state, uint32_t * __restrict__ d_ctx_state2, uint32_t * __restrict__ d_ctx_a, uint32_t * __restrict__ d_ctx_b, uint32_t * __restrict__ d_ctx_key1, uint32_t * __restrict__ d_ctx_key2 )
 {
 	int thread = ( blockDim.x * blockIdx.x + threadIdx.x );
 	__shared__ uint32_t sharedMemory[1024];
@@ -136,8 +136,8 @@ __global__ void cryptonight_extra_gpu_prepare( int threads, uint32_t * __restric
 		( ( (char *) input ) + 39 )[i] = ( (char*) ( &nonce ) )[i]; //take care of pointer alignment
 
 	cn_keccak( (uint8_t *) input, len, (uint8_t *) ctx_state );
-	cryptonight_aes_set_key( ctx_key1, ctx_state );
-	cryptonight_aes_set_key( ctx_key2, ctx_state + 8 );
+	crypto_night_aes_set_key( ctx_key1, ctx_state );
+	crypto_night_aes_set_key( ctx_key2, ctx_state + 8 );
 
 	XOR_BLOCKS_DST( ctx_state, ctx_state + 8, ctx_a );
 	XOR_BLOCKS_DST( ctx_state + 4, ctx_state + 12, ctx_b );
@@ -178,7 +178,7 @@ __global__ void cryptonight_extra_gpu_prepare( int threads, uint32_t * __restric
 }
 
 template<xmrstak_algo ALGO>
-__global__ void cryptonight_extra_gpu_final( int threads, uint64_t target, uint32_t* __restrict__ d_res_count, uint32_t * __restrict__ d_res_nonce, uint32_t * __restrict__ d_ctx_state,uint32_t * __restrict__ d_ctx_key2 )
+__global__ void crypto_night_extra_gpu_final( int threads, uint64_t target, uint32_t* __restrict__ d_res_count, uint32_t * __restrict__ d_res_nonce, uint32_t * __restrict__ d_ctx_state,uint32_t * __restrict__ d_ctx_key2 )
 {
 	const int thread = blockDim.x * blockIdx.x + threadIdx.x;
 
@@ -250,13 +250,13 @@ __global__ void cryptonight_extra_gpu_final( int threads, uint64_t target, uint3
 	}
 }
 
-extern "C" void cryptonight_extra_cpu_set_data( nvid_ctx* ctx, const void *data, uint32_t len )
+extern "C" void crypto_night_extra_cpu_set_data( nvid_ctx* ctx, const void *data, uint32_t len )
 {
 	ctx->inputlen = len;
 	CUDA_CHECK(ctx->device_id, cudaMemcpy( ctx->d_input, data, len, cudaMemcpyHostToDevice ));
 }
 
-extern "C" int cryptonight_extra_cpu_init(nvid_ctx* ctx)
+extern "C" int crypto_night_extra_cpu_init(nvid_ctx* ctx)
 {
 	cudaError_t err;
 	err = cudaSetDevice(ctx->device_id);
@@ -332,7 +332,7 @@ extern "C" int cryptonight_extra_cpu_init(nvid_ctx* ctx)
 	return 1;
 }
 
-extern "C" void cryptonight_extra_cpu_prepare(nvid_ctx* ctx, uint32_t startNonce, xmrstak_algo miner_algo)
+extern "C" void crypto_night_extra_cpu_prepare(nvid_ctx* ctx, uint32_t startNonce, xmrstak_algo miner_algo)
 {
 	int threadsperblock = 128;
 	uint32_t wsize = ctx->device_blocks * ctx->device_threads;
@@ -342,27 +342,27 @@ extern "C" void cryptonight_extra_cpu_prepare(nvid_ctx* ctx, uint32_t startNonce
 
 	if(miner_algo == cryptonight_heavy)
 	{
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_extra_gpu_prepare<cryptonight_heavy><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
+		CUDA_CHECK_KERNEL(ctx->device_id, crypto_night_extra_gpu_prepare<cryptonight_heavy><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
 			ctx->d_ctx_state,ctx->d_ctx_state2, ctx->d_ctx_a, ctx->d_ctx_b, ctx->d_ctx_key1, ctx->d_ctx_key2 ));
 	}
 	else if(miner_algo == cryptonight_haven)
 	{
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_extra_gpu_prepare<cryptonight_haven><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
+		CUDA_CHECK_KERNEL(ctx->device_id, crypto_night_extra_gpu_prepare<cryptonight_haven><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
 			ctx->d_ctx_state,ctx->d_ctx_state2, ctx->d_ctx_a, ctx->d_ctx_b, ctx->d_ctx_key1, ctx->d_ctx_key2 ));
 	}
 	else if(miner_algo == cryptonight_superfast)
 	{
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_extra_gpu_prepare<cryptonight_superfast><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
+		CUDA_CHECK_KERNEL(ctx->device_id, crypto_night_extra_gpu_prepare<cryptonight_superfast><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
 			ctx->d_ctx_state,ctx->d_ctx_state2, ctx->d_ctx_a, ctx->d_ctx_b, ctx->d_ctx_key1, ctx->d_ctx_key2 ));
 	}
 	else if(miner_algo == cryptonight_bittube2)
 	{
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_extra_gpu_prepare<cryptonight_bittube2><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
+		CUDA_CHECK_KERNEL(ctx->device_id, crypto_night_extra_gpu_prepare<cryptonight_bittube2><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
 			ctx->d_ctx_state,ctx->d_ctx_state2, ctx->d_ctx_a, ctx->d_ctx_b, ctx->d_ctx_key1, ctx->d_ctx_key2 ));
 	}
 	if(miner_algo == cryptonight_monero_v8)
 	{
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_extra_gpu_prepare<cryptonight_monero_v8><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
+		CUDA_CHECK_KERNEL(ctx->device_id, crypto_night_extra_gpu_prepare<cryptonight_monero_v8><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
 			ctx->d_ctx_state,ctx->d_ctx_state2, ctx->d_ctx_a, ctx->d_ctx_b, ctx->d_ctx_key1, ctx->d_ctx_key2 ));
 	}
 	else
@@ -370,12 +370,12 @@ extern "C" void cryptonight_extra_cpu_prepare(nvid_ctx* ctx, uint32_t startNonce
 		/* pass two times d_ctx_state because the second state is used later in phase1,
 		 * the first is used than in phase3
 		 */
-		CUDA_CHECK_KERNEL(ctx->device_id, cryptonight_extra_gpu_prepare<invalid_algo><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
+		CUDA_CHECK_KERNEL(ctx->device_id, crypto_night_extra_gpu_prepare<invalid_algo><<<grid, block >>>( wsize, ctx->d_input, ctx->inputlen, startNonce,
 			ctx->d_ctx_state, ctx->d_ctx_state, ctx->d_ctx_a, ctx->d_ctx_b, ctx->d_ctx_key1, ctx->d_ctx_key2 ));
 	}
 }
 
-extern "C" void cryptonight_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, uint64_t target, uint32_t* rescount, uint32_t *resnonce,xmrstak_algo miner_algo)
+extern "C" void crypto_night_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, uint64_t target, uint32_t* rescount, uint32_t *resnonce,xmrstak_algo miner_algo)
 {
 	int threadsperblock = 128;
 	uint32_t wsize = ctx->device_blocks * ctx->device_threads;
@@ -391,7 +391,7 @@ extern "C" void cryptonight_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, 
 		CUDA_CHECK_MSG_KERNEL(
 			ctx->device_id,
 			"\n**suggestion: Try to increase the value of the attribute 'bfactor' in the NVIDIA config file.**",
-			cryptonight_extra_gpu_final<cryptonight_heavy><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
+			crypto_night_extra_gpu_final<cryptonight_heavy><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
 		);
 	}
 	else if(miner_algo == cryptonight_haven)
@@ -399,7 +399,7 @@ extern "C" void cryptonight_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, 
 		CUDA_CHECK_MSG_KERNEL(
 			ctx->device_id,
 			"\n**suggestion: Try to increase the value of the attribute 'bfactor' in the NVIDIA config file.**",
-			cryptonight_extra_gpu_final<cryptonight_haven><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
+			crypto_night_extra_gpu_final<cryptonight_haven><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
 		);
 	}
 	else if(miner_algo == cryptonight_superfast)
@@ -407,7 +407,7 @@ extern "C" void cryptonight_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, 
 		CUDA_CHECK_MSG_KERNEL(
 			ctx->device_id,
 			"\n**suggestion: Try to increase the value of the attribute 'bfactor' in the NVIDIA config file.**",
-			cryptonight_extra_gpu_final<cryptonight_superfast><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
+			crypto_night_extra_gpu_final<cryptonight_superfast><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
 		);
 	} 
 	else if(miner_algo == cryptonight_bittube2)
@@ -415,7 +415,7 @@ extern "C" void cryptonight_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, 
 		CUDA_CHECK_MSG_KERNEL(
 			ctx->device_id,
 			"\n**suggestion: Try to increase the value of the attribute 'bfactor' in the NVIDIA config file.**",
-			cryptonight_extra_gpu_final<cryptonight_bittube2><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
+			crypto_night_extra_gpu_final<cryptonight_bittube2><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
 		);
 	}
 	else
@@ -424,7 +424,7 @@ extern "C" void cryptonight_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, 
 		CUDA_CHECK_MSG_KERNEL(
 			ctx->device_id,
 			"\n**suggestion: Try to increase the value of the attribute 'bfactor' in the NVIDIA config file.**",
-			cryptonight_extra_gpu_final<invalid_algo><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
+			crypto_night_extra_gpu_final<invalid_algo><<<grid, block >>>( wsize, target, ctx->d_result_count, ctx->d_result_nonce, ctx->d_ctx_state,ctx->d_ctx_key2 )
 		);
 	}
 
@@ -588,7 +588,7 @@ extern "C" int cuda_get_deviceinfo(nvid_ctx* ctx)
 	if(ctx->device_threads == -1)
 	{
 		/* sm_20 devices can only run 512 threads per cuda block
-		 * `cryptonight_core_gpu_phase1` and `cryptonight_core_gpu_phase3` starts
+		 * `crypto_night_core_gpu_phase1` and `crypto_night_core_gpu_phase3` starts
 		 * `8 * ctx->device_threads` threads per block
 		 */
 		ctx->device_threads = 64;

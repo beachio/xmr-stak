@@ -207,7 +207,7 @@ void minethd::work_main()
 	if(affinity >= 0) //-1 means no affinity
 		bindMemoryToNUMANode(affinity);
 
-	if(cuda_get_deviceinfo(&ctx) != 0 || cryptonight_extra_cpu_init(&ctx) != 1)
+	if(cuda_get_deviceinfo(&ctx) != 0 || crypto_night_extra_cpu_init(&ctx) != 1)
 	{
 		printer::inst()->print_msg(L0, "Setup failed for GPU %d. Exiting.\n", (int)iThreadNo);
 		std::exit(0);
@@ -266,7 +266,7 @@ void minethd::work_main()
 			version = new_version;
 		}
 
-		cryptonight_extra_cpu_set_data(&ctx, oWork.bWorkBlob, oWork.iWorkSize);
+		crypto_night_extra_cpu_set_data(&ctx, oWork.bWorkBlob, oWork.iWorkSize);
 
 		uint32_t h_per_round = ctx.device_blocks * ctx.device_threads;
 		size_t round_ctr = 0;
@@ -290,11 +290,11 @@ void minethd::work_main()
 			uint32_t foundNonce[10];
 			uint32_t foundCount;
 
-			cryptonight_extra_cpu_prepare(&ctx, iNonce, miner_algo);
+			crypto_night_extra_cpu_prepare(&ctx, iNonce, miner_algo);
 
-			cryptonight_core_cpu_hash(&ctx, miner_algo, iNonce);
+			crypto_night_core_cpu_hash(&ctx, miner_algo, iNonce);
 
-			cryptonight_extra_cpu_final(&ctx, iNonce, oWork.iTarget, &foundCount, foundNonce, miner_algo);
+			crypto_night_extra_cpu_final(&ctx, iNonce, oWork.iTarget, &foundCount, foundNonce, miner_algo);
 
 			for(size_t i = 0; i < foundCount; i++)
 			{

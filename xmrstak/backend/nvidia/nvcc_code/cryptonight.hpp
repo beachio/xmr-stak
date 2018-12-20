@@ -44,10 +44,10 @@ extern "C" {
  */
 int cuda_get_devicecount( int* deviceCount);
 int cuda_get_deviceinfo(nvid_ctx *ctx);
-int cryptonight_extra_cpu_init(nvid_ctx *ctx);
-void cryptonight_extra_cpu_set_data( nvid_ctx* ctx, const void *data, uint32_t len);
-void cryptonight_extra_cpu_prepare(nvid_ctx* ctx, uint32_t startNonce, xmrstak_algo miner_algo);
-void cryptonight_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, uint64_t target, uint32_t* rescount, uint32_t *resnonce,xmrstak_algo miner_algo);
+int crypto_night_extra_cpu_init(nvid_ctx *ctx);
+void crypto_night_extra_cpu_set_data( nvid_ctx* ctx, const void *data, uint32_t len);
+void crypto_night_extra_cpu_prepare(nvid_ctx* ctx, uint32_t startNonce, xmrstak_algo miner_algo);
+void crypto_night_extra_cpu_final(nvid_ctx* ctx, uint32_t startNonce, uint64_t target, uint32_t* rescount, uint32_t *resnonce,xmrstak_algo miner_algo);
 }
 
-void cryptonight_core_cpu_hash(nvid_ctx* ctx, xmrstak_algo miner_algo, uint32_t startNonce);
+void crypto_night_core_cpu_hash(nvid_ctx* ctx, xmrstak_algo miner_algo, uint32_t startNonce);
